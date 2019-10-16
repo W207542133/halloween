@@ -590,3 +590,16 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.10.16-01.42.48:101][431]LogSlate: FSceneViewport::OnFocusLost() reason 2
 [2019.10.16-01.42.54:101][724]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.10.16-01.43.06:000][131]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-01.47.39:801][493]Cmd: TRANSACTION UNDO
+[2019.10.16-01.47.39:801][493]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.10.16-01.47.39:937][493]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.10.16-01.47.40:714][517]Cmd: TRANSACTION UNDO
+[2019.10.16-01.47.40:714][517]LogEditorTransaction: Undo Landscape Editing: Sculpt
+[2019.10.16-01.47.40:807][517]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.10.16-01.47.43:041][585]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-01.48.37:902][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-01.49.06:154][290]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.16-01.49.16:829][730]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.16-01.49.16:932][732]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2019.10.16-01.49.17:037][732]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.10.16-01.49.17:252][732]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower22ED1A134F5B5473C6AA248B65592572.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/Rand_halloween/Rand_tower.umap'
