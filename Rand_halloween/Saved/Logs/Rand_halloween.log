@@ -580,3 +580,141 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.10.18-00.30.22:899][221]LogDirectoryWatcher: A directory notification failed for 'C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Collections/' because it could not be accessed. Aborting watch request...
 [2019.10.18-00.30.38:019][652]LogUObjectHash: Compacting FUObjectHashTables data took   1.91ms
 [2019.10.18-00.30.38:218][652]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower02447391418AC35B577A1D953AB9CBC7.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/Rand_halloween/Rand_tower.umap'
+[2019.10.18-00.55.53:628][ 48]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
+[2019.10.18-00.55.58:661][190]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.18-00.56.26:014][477]LogTexture: Display: Building textures: T_ground_big_pebbles_01_BC_H (AutoDXT, 2048X2048)
+[2019.10.18-00.56.26:014][477]LogTexture: Display: Building textures: T_ground_forest_grass_01_MT_R_AO (AutoDXT, 2048X2048)
+[2019.10.18-00.56.26:014][477]LogTexture: Display: Building textures: T_ground_big_pebbles_01_N (BC5, 2048X2048)
+[2019.10.18-00.56.26:014][477]LogTexture: Display: Building textures: T_ground_big_pebbles_01_MT_R_AO (AutoDXT, 2048X2048)
+[2019.10.18-00.56.26:014][477]LogTexture: Display: Building textures: T_ground_forest_grass_01_5_BC_H (AutoDXT, 2048X2048)
+[2019.10.18-00.56.26:014][477]LogTexture: Display: Building textures: T_ground_forest_grass_01_N (BC5, 2048X2048)
+[2019.10.18-00.56.26:014][477]LogMaterial: Display: Missing cached shader map for material M_Ground_1, compiling. 
+[2019.10.18-00.56.26:747][477]LogMaterial: Display: Missing cached shader map for material M_Ground_1, compiling. 
+[2019.10.18-00.56.26:867][477]LogMaterial: Display: Missing cached shader map for material M_Ground_1, compiling. 
+[2019.10.18-00.56.27:835][477]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.18-00.56.27:838][477]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2019.10.18-00.56.29:962][477]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.18-00.56.29:968][477]LogEditorViewport: Clicking on Actor (context menu): Landscape (Landscape)
+[2019.10.18-00.56.30:033][477]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.18-00.56.39:664][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.18-00.57.02:740][175]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.18-00.58.27:606][622]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2019.10.18-00.58.27:713][622]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
+[2019.10.18-00.58.27:905][622]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower_Auto212B6EAA24D041B6416A4F4B1050E12B9.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Autosaves/Game/Rand_halloween/Rand_tower_Auto2.umap'
+[2019.10.18-00.58.27:922][622]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Rand_halloween/Rand_tower' took 0.342
+[2019.10.18-00.58.27:922][622]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.342
+[2019.10.18-00.58.43:613][789]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.18-00.58.48:518][790]LogTexture: Display: Building textures: T_ground_forest_leaves_01_N (BC5, 2048X2048)
+[2019.10.18-00.58.48:518][790]LogTexture: Display: Building textures: T_ground_forest_leaves_01_MT_R_AO (AutoDXT, 2048X2048)
+[2019.10.18-00.58.48:518][790]LogTexture: Display: Building textures: T_ground_forest_leaves_01_0_BC_H (AutoDXT, 2048X2048)
+[2019.10.18-01.02.04:013][441]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_roots_01_0_BC_H (AutoDXT, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_roots_01_MT_R_AO (AutoDXT, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_rocks_03_MT_R_AO (AutoDXT, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_rocks_03_N (BC5, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_rocks_03_0_BC_H (AutoDXT, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_forest_moss_01_N (BC5, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_forest_moss_01_BC_H (AutoDXT, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_forest_moss_01_MT_R_AO (AutoDXT, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_forest_leaves_03_MT_R_AO (AutoDXT, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_forest_leaves_03_N (BC5, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_forest_leaves_03_0_BC_H (AutoDXT, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_forest_grass_06_N (BC5, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_forest_grass_06_MT_R_AO (AutoDXT, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_forest_leaves_02_N (BC5, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_forest_leaves_02_BC_H (AutoDXT, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_forest_leaves_02_MT_R_AO (AutoDXT, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_dirt_04_MT_R_AO (AutoDXT, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_forest_01_BC_H (AutoDXT, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_dirt_04_N (BC5, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_dirt_04_BC_H (AutoDXT, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_forest_01_MT_R_AO (AutoDXT, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_forest_grass_06_BC_H (AutoDXT, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_wet_dirt_04_MT_R_AO (AutoDXT, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_forest_01_N (BC5, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_roots_01_N (BC5, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_wet_dirt_04_BC_H (AutoDXT, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogTexture: Display: Building textures: T_ground_wet_dirt_04_N (BC5, 2048X2048)
+[2019.10.18-01.02.49:762][617]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
+[2019.10.18-01.02.49:931][617]LogMaterial: Display: Missing cached shader map for material WorldGridMaterial, compiling. Is special engine material.
+[2019.10.18-01.03.31:036][617]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
+[2019.10.18-01.03.31:115][617]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
+[2019.10.18-01.03.31:524][617]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
+[2019.10.18-01.03.31:541][617]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
+[2019.10.18-01.03.31:574][617]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
+[2019.10.18-01.03.31:598][617]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
+[2019.10.18-01.03.31:621][617]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
+[2019.10.18-01.03.31:643][617]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
+[2019.10.18-01.03.31:669][617]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
+[2019.10.18-01.03.31:739][617]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
+[2019.10.18-01.03.31:766][617]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
+[2019.10.18-01.03.31:857][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.18-01.03.31:859][617]LogEditorViewport: Clicking on Actor (double click): Landscape (Landscape)
+[2019.10.18-01.03.31:861][617]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.18-01.04.08:948][705]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (36.841 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.10.18-01.05.05:482][819]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.18-01.05.09:751][841]LogSlate: Window 'Message' being destroyed
+[2019.10.18-01.05.14:550][935]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.18-01.05.18:428][935]LogSlate: Window 'Message' being destroyed
+[2019.10.18-01.05.36:832][253]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.18-01.06.14:765][682]LogSlate: Window 'Message' being destroyed
+[2019.10.18-01.06.17:054][730]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.18-01.06.18:716][730]LogSlate: Window 'Message' being destroyed
+[2019.10.18-01.06.22:682][802]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.18-01.06.57:918][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.18-01.07.41:924][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.18-01.07.51:168][421]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.18-01.09.15:479][342]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.18-01.09.50:423][947]LogUObjectHash: Compacting FUObjectHashTables data took   2.57ms
+[2019.10.18-01.09.50:700][947]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower_Auto31D21E88E4F6598CF66F88F825E3AEA0C.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Autosaves/Game/Rand_halloween/Rand_tower_Auto3.umap'
+[2019.10.18-01.09.50:713][947]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Rand_halloween/Rand_tower' took 0.323
+[2019.10.18-01.09.50:713][947]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.323
+[2019.10.18-01.10.27:156][557]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.18-01.10.58:276][444]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.18-01.11.05:254][588]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.18-01.11.14:536][746]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.18-01.11.17:805][883]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2019.10.18-01.11.17:819][883]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
+[2019.10.18-01.11.17:893][883]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
+[2019.10.18-01.11.18:033][883]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2019.10.18-01.11.18:117][883]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2019.10.18-01.11.18:202][883]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2019.10.18-01.11.18:283][883]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 64X64)
+[2019.10.18-01.11.18:359][883]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 64X64)
+[2019.10.18-01.11.18:440][883]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2019.10.18-01.11.18:513][883]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2019.10.18-01.11.18:598][883]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 64X64)
+[2019.10.18-01.11.28:672][ 94]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.18-01.11.31:214][215]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.18-01.12.22:079][848]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 64X64)
+[2019.10.18-01.12.22:105][848]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
+[2019.10.18-01.12.22:174][848]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
+[2019.10.18-01.12.35:080][130]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.18-01.14.09:369][317]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2019.10.18-01.15.06:649][641]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 64X64)
+[2019.10.18-01.15.10:145][708]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.18-01.15.38:888][309]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2019.10.18-01.16.12:870][ 47]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2019.10.18-01.16.30:251][405]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 64X64)
+[2019.10.18-01.16.54:448][999]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 64X64)
+[2019.10.18-01.17.11:600][378]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 64X64)
+[2019.10.18-01.17.17:510][503]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.18-01.17.18:066][515]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2019.10.18-01.17.18:225][515]LogTexture: Display: Building textures: Texture2D_1 (BGRA8, 64X64)
+[2019.10.18-01.17.18:226][515]LogTexture: Display: Building textures: Texture2D_16 (BGRA8, 64X64)
+[2019.10.18-01.17.18:227][515]LogTexture: Display: Building textures: Texture2D_12 (BGRA8, 64X64)
+[2019.10.18-01.17.18:227][515]LogTexture: Display: Building textures: Texture2D_11 (BGRA8, 64X64)
+[2019.10.18-01.17.18:228][515]LogTexture: Display: Building textures: Texture2D_10 (BGRA8, 64X64)
+[2019.10.18-01.17.18:228][515]LogTexture: Display: Building textures: Texture2D_8 (BGRA8, 64X64)
+[2019.10.18-01.17.18:229][515]LogTexture: Display: Building textures: Texture2D_9 (BGRA8, 64X64)
+[2019.10.18-01.17.18:229][515]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 64X64)
+[2019.10.18-01.17.18:230][515]LogTexture: Display: Building textures: Texture2D_2 (BGRA8, 64X64)
+[2019.10.18-01.17.18:230][515]LogTexture: Display: Building textures: Texture2D_3 (BGRA8, 64X64)
+[2019.10.18-01.17.18:231][515]LogTexture: Display: Building textures: Texture2D_17 (BGRA8, 64X64)
+[2019.10.18-01.17.18:231][515]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2019.10.18-01.17.18:232][515]LogTexture: Display: Building textures: Texture2D_13 (BGRA8, 64X64)
+[2019.10.18-01.17.18:234][515]LogTexture: Display: Building textures: Texture2D_5 (BGRA8, 64X64)
+[2019.10.18-01.17.18:235][515]LogTexture: Display: Building textures: Texture2D_6 (BGRA8, 64X64)
+[2019.10.18-01.17.18:235][515]LogTexture: Display: Building textures: Texture2D_7 (BGRA8, 64X64)
+[2019.10.18-01.17.18:266][515]LogTexture: Display: Building textures: Texture2D_14 (BGRA8, 64X64)
+[2019.10.18-01.17.18:573][515]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower04F36BB343015E7404206A9A87395F9C.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/Rand_halloween/Rand_tower.umap'
