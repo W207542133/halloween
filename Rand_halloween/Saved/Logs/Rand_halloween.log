@@ -709,3 +709,167 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.10.23-01.42.56:090][109]LogSlate: Took 0.001621 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
 [2019.10.23-01.42.56:161][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
 [2019.10.23-01.42.56:545][109]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower4C84F6DA4A07B8CF9813AFA834F2F697.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/Rand_halloween/Rand_tower.umap'
+[2019.10.23-01.43.43:917][290]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.44.04:955][562]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.10.23-01.44.34:556][304]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.44.34:637][306]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.23-01.44.34:646][306]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.44.34:646][306]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.23-01.44.34:646][306]PIE: New page: PIE session: Rand_tower (Oct 22, 2019, 3:44:34 PM)
+[2019.10.23-01.44.34:646][306]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
+[2019.10.23-01.44.34:683][306]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036950s)
+[2019.10.23-01.44.34:684][306]LogAIModule: Creating AISystem for world Rand_tower
+[2019.10.23-01.44.34:684][306]LogPlayLevel: PIE: World Init took: (0.000705s)
+[2019.10.23-01.44.34:684][306]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.037791s)
+[2019.10.23-01.44.34:710][306]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2019.10.23-01.44.34:713][306]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.23-01.44.34:737][306]LogInit: FAudioDevice initialized.
+[2019.10.23-01.44.34:765][306]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.23-01.44.34:767][306]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.22-20.44.34
+[2019.10.23-01.44.34:767][306]LogWorld: Bringing up level for play took: 0.001779
+[2019.10.23-01.44.34:782][306]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower -0.288
+[2019.10.23-01.44.34:782][306]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.44.56:408][ 87]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.44.56:408][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.44.56:469][ 87]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.23-01.44.56:469][ 87]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.44.56:497][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.44.56:500][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2019.10.23-01.44.56:525][ 88]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.10.23-01.45.08:604][442]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.45.08:671][444]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.23-01.45.08:682][444]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.45.08:683][444]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.23-01.45.08:683][444]PIE: New page: PIE session: Rand_tower (Oct 22, 2019, 3:45:08 PM)
+[2019.10.23-01.45.08:683][444]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
+[2019.10.23-01.45.08:719][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036375s)
+[2019.10.23-01.45.08:720][444]LogAIModule: Creating AISystem for world Rand_tower
+[2019.10.23-01.45.08:720][444]LogPlayLevel: PIE: World Init took: (0.000648s)
+[2019.10.23-01.45.08:720][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.037195s)
+[2019.10.23-01.45.08:761][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2019.10.23-01.45.08:763][444]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.23-01.45.08:799][444]LogInit: FAudioDevice initialized.
+[2019.10.23-01.45.08:883][444]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.23-01.45.08:885][444]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.22-20.45.08
+[2019.10.23-01.45.08:885][444]LogWorld: Bringing up level for play took: 0.001769
+[2019.10.23-01.45.08:900][444]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower -0.171
+[2019.10.23-01.45.08:900][444]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.45.15:181][659]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.45.15:181][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.45.15:243][659]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.23-01.45.15:243][659]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.45.15:274][659]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.45.15:278][659]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2019.10.23-01.45.15:291][660]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.10.23-01.45.17:541][730]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.23-01.45.17:550][730]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.45.17:550][730]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.23-01.45.17:550][730]PIE: New page: PIE session: Rand_tower (Oct 22, 2019, 3:45:17 PM)
+[2019.10.23-01.45.17:550][730]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
+[2019.10.23-01.45.17:585][730]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034188s)
+[2019.10.23-01.45.17:585][730]LogAIModule: Creating AISystem for world Rand_tower
+[2019.10.23-01.45.17:585][730]LogPlayLevel: PIE: World Init took: (0.000455s)
+[2019.10.23-01.45.17:585][730]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.034749s)
+[2019.10.23-01.45.17:607][730]LogUObjectHash: Compacting FUObjectHashTables data took   1.11ms
+[2019.10.23-01.45.17:608][730]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.23-01.45.17:631][730]LogInit: FAudioDevice initialized.
+[2019.10.23-01.45.17:659][730]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.23-01.45.17:662][730]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.22-20.45.17
+[2019.10.23-01.45.17:662][730]LogWorld: Bringing up level for play took: 0.001731
+[2019.10.23-01.45.17:676][730]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower 0.606
+[2019.10.23-01.45.17:676][730]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.45.23:421][927]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.45.23:421][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.45.23:482][927]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.23-01.45.23:482][927]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.45.23:509][927]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.45.23:512][927]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2019.10.23-01.45.23:534][928]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.10.23-01.45.54:656][884]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.46.45:365][343]LogSlate: Window 'Select Path' being destroyed
+[2019.10.23-01.46.45:503][343]LogStaticMesh: Building static mesh tower...
+[2019.10.23-01.46.45:597][343]LogStaticMesh: Built static mesh [0.09s] /Game/Rand_halloween/tower.tower
+[2019.10.23-01.46.45:606][343]LogActorFactory: Actor Factory created tower
+[2019.10.23-01.46.45:633][343]LogEditor: Error: Actor 'Brush /Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.BoxBrush' is marked pending kill and cannot be converted
+[2019.10.23-01.46.45:633][343]LogEditor: Error: Actor 'Brush /Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.CurvedStairBrush' is marked pending kill and cannot be converted
+[2019.10.23-01.46.45:633][343]LogEditor: Error: Actor 'Brush /Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.CurvedStairBrush2' is marked pending kill and cannot be converted
+[2019.10.23-01.46.45:633][343]LogEditor: Error: Actor 'Brush /Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.CurvedStairBrush3' is marked pending kill and cannot be converted
+[2019.10.23-01.46.45:633][343]LogEditor: Error: Actor 'Brush /Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.CurvedStairBrush4' is marked pending kill and cannot be converted
+[2019.10.23-01.46.45:633][343]LogEditor: Error: Actor 'Brush /Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.CylinderBrush' is marked pending kill and cannot be converted
+[2019.10.23-01.46.45:633][343]LogEditor: Error: Actor 'Brush /Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.CylinderBrush2' is marked pending kill and cannot be converted
+[2019.10.23-01.46.45:633][343]LogEditor: Error: Actor 'Brush /Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.CylinderBrush3' is marked pending kill and cannot be converted
+[2019.10.23-01.46.45:633][343]LogEditor: Error: Actor 'Brush /Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.CylinderBrush4' is marked pending kill and cannot be converted
+[2019.10.23-01.46.45:633][343]LogEditor: Error: Actor 'Brush /Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.CylinderBrush5' is marked pending kill and cannot be converted
+[2019.10.23-01.46.45:633][343]LogEditor: Error: Actor 'Brush /Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.CylinderBrush6' is marked pending kill and cannot be converted
+[2019.10.23-01.46.45:633][343]EditorErrors: New page: Actor Reattachment
+[2019.10.23-01.46.45:658][343]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2019.10.23-01.46.52:001][483]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.23-01.46.52:010][483]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.46.52:010][483]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.23-01.46.52:010][483]PIE: New page: PIE session: Rand_tower (Oct 22, 2019, 3:46:52 PM)
+[2019.10.23-01.46.52:010][483]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
+[2019.10.23-01.46.52:037][483]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026588s)
+[2019.10.23-01.46.52:037][483]LogAIModule: Creating AISystem for world Rand_tower
+[2019.10.23-01.46.52:038][483]LogPlayLevel: PIE: World Init took: (0.000682s)
+[2019.10.23-01.46.52:038][483]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.027430s)
+[2019.10.23-01.46.52:059][483]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2019.10.23-01.46.52:061][483]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.23-01.46.52:085][483]LogInit: FAudioDevice initialized.
+[2019.10.23-01.46.52:114][483]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.23-01.46.52:117][483]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.22-20.46.52
+[2019.10.23-01.46.52:117][483]LogWorld: Bringing up level for play took: 0.001511
+[2019.10.23-01.46.52:131][483]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower 1.058
+[2019.10.23-01.46.52:131][483]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.47.08:286][ 44]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.47.08:286][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.47.08:348][ 44]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.23-01.47.08:349][ 44]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.47.08:376][ 44]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.47.08:379][ 44]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2019.10.23-01.47.08:421][ 45]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.10.23-01.47.10:792][119]Cmd: TRANSACTION UNDO
+[2019.10.23-01.47.10:792][119]LogEditorTransaction: Undo Convert Actors
+[2019.10.23-01.47.24:418][596]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.47.26:699][685]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.10.23-01.47.32:111][886]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.47.47:951][474]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.48.12:240][418]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.48.28:480][ 59]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.48.50:295][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.49.22:123][179]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.49.34:521][669]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.50.12:769][111]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.50.15:776][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.50.26:558][631]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.50.26:653][634]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.23-01.50.26:663][634]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.50.26:663][634]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.23-01.50.26:663][634]PIE: New page: PIE session: Rand_tower (Oct 22, 2019, 3:50:26 PM)
+[2019.10.23-01.50.26:663][634]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
+[2019.10.23-01.50.26:705][634]LogPlayLevel: PIE: StaticDuplicateObject took: (0.042419s)
+[2019.10.23-01.50.26:706][634]LogAIModule: Creating AISystem for world Rand_tower
+[2019.10.23-01.50.26:706][634]LogPlayLevel: PIE: World Init took: (0.000570s)
+[2019.10.23-01.50.26:706][634]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.043131s)
+[2019.10.23-01.50.26:732][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2019.10.23-01.50.26:734][634]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.23-01.50.26:761][634]LogInit: FAudioDevice initialized.
+[2019.10.23-01.50.26:795][634]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.23-01.50.26:798][634]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.22-20.50.26
+[2019.10.23-01.50.26:798][634]LogWorld: Bringing up level for play took: 0.002386
+[2019.10.23-01.50.26:813][634]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower -0.265
+[2019.10.23-01.50.26:814][634]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.50.43:938][254]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.50.43:938][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.50.43:985][254]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.23-01.50.43:986][254]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.50.44:016][254]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.50.44:019][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2019.10.23-01.50.44:050][255]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.10.23-01.50.47:405][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.50.48:391][431]Cmd: DELETE
+[2019.10.23-01.50.48:391][431]Cmd: ACTOR DELETE
+[2019.10.23-01.50.48:403][431]LogEditorActor: Deleted Actor: Brush
+[2019.10.23-01.50.48:432][431]LogUObjectHash: Compacting FUObjectHashTables data took   0.72ms
+[2019.10.23-01.50.48:445][431]LogEditorActor: Deleted 1 Actors (0.053 secs)
+[2019.10.23-01.50.58:117][839]LogUObjectHash: Compacting FUObjectHashTables data took   1.05ms
+[2019.10.23-01.50.58:492][839]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_towerDF57DE6C4CA5CB96AFB2A9AE461CFF23.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/Rand_halloween/Rand_tower.umap'
