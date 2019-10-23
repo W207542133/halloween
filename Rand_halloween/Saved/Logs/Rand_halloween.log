@@ -1084,3 +1084,5 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.10.23-00.28.01:618][524]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower_Auto50524A72F492382614F87B7BEB6B6FB9D.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Autosaves/Game/Rand_halloween/Rand_tower_Auto5.umap'
 [2019.10.23-00.28.01:638][524]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Rand_halloween/Rand_tower' took 0.519
 [2019.10.23-00.28.01:638][524]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.519
+[2019.10.23-00.34.09:689][693]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2019.10.23-00.34.26:276][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
