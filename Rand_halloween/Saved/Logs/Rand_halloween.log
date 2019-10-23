@@ -1,4 +1,4 @@
-﻿Log file open, 10/22/19 18:09:17
+﻿Log file open, 10/22/19 20:32:34
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -10,7 +10,7 @@ LogInit: Display: Running engine for game: Rand_halloween
 LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.500987
+LogStats: Stats thread started at 0.294120
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -6:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -157,932 +157,555 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2019.10.22-23.09.18:226][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2019.10.22-23.09.18:226][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2019.10.22-23.09.18:226][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Engine.ini]
-[2019.10.22-23.09.18:226][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2019.10.22-23.09.18:226][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Engine.ini]
-[2019.10.22-23.09.18:227][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Engine.ini]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Engine.ini]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2019.10.22-23.09.18:227][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Engine.ini]
-[2019.10.22-23.09.18:227][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Engine.ini]
-[2019.10.22-23.09.18:229][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.22-23.09.18:229][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.22-23.09.18:230][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.22-23.09.18:230][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.22-23.09.18:230][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
-[2019.10.22-23.09.18:230][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.22-23.09.18:230][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.22-23.09.18:230][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.22-23.09.18:230][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2019.10.22-23.09.18:291][  0]LogHAL: Display: Platform has ~ 16 GB [17119154176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
-[2019.10.22-23.09.18:291][  0]LogInit: Going up to parent DeviceProfile []
-[2019.10.22-23.09.18:291][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2019.10.22-23.09.18:291][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2019.10.22-23.09.18:292][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2019.10.22-23.09.18:318][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2019.10.22-23.09.18:318][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2019.10.22-23.09.18:318][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Engine.ini]
-[2019.10.22-23.09.18:318][  0]LogInit: Computer: SW-WLC124-09
-[2019.10.22-23.09.18:318][  0]LogInit: User: W207542133
-[2019.10.22-23.09.18:318][  0]LogInit: CPU Page size=4096, Cores=4
-[2019.10.22-23.09.18:318][  0]LogInit: High frequency timer resolution =3.312642 MHz
-[2019.10.22-23.09.18:318][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2019.10.22-23.09.18:318][  0]LogMemory: Platform Memory Stats for Windows
-[2019.10.22-23.09.18:318][  0]LogMemory: Process Physical Memory: 96.88 MB used, 96.88 MB peak
-[2019.10.22-23.09.18:318][  0]LogMemory: Process Virtual Memory: 93.19 MB used, 93.19 MB peak
-[2019.10.22-23.09.18:318][  0]LogMemory: Physical Memory: 4031.91 MB used,  12294.19 MB free, 16326.10 MB total
-[2019.10.22-23.09.18:318][  0]LogMemory: Virtual Memory: 532.30 MB used,  134217192.00 MB free, 134217728.00 MB total
-[2019.10.22-23.09.18:538][  0]LogInit: Using OS detected language (en-US).
-[2019.10.22-23.09.18:538][  0]LogInit: Using OS detected locale (en-US).
-[2019.10.22-23.09.18:574][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2019.10.22-23.09.19:170][  0]LogInit: Setting process to per monitor DPI aware
-[2019.10.22-23.09.19:590][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2019.10.22-23.09.19:590][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2019.10.22-23.09.22:788][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.22-23.09.22:788][  0]LogD3D11RHI: D3D11 adapters:
-[2019.10.22-23.09.22:824][  0]LogD3D11RHI:    0. 'AMD Radeon HD 8570' (Feature Level 11_0)
-[2019.10.22-23.09.22:824][  0]LogD3D11RHI:       1005/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
-[2019.10.22-23.09.22:826][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2019.10.22-23.09.22:826][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2019.10.22-23.09.22:827][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2019.10.22-23.09.22:839][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2019.10.22-23.09.22:839][  0]LogD3D11RHI:     GPU DeviceId: 0x6611 (for the marketing name, search the web for "GPU Device Id")
-[2019.10.22-23.09.22:839][  0]LogWindows: EnumDisplayDevices:
-[2019.10.22-23.09.22:840][  0]LogWindows:    0. 'AMD Radeon HD 8570' (P:1 D:1)
-[2019.10.22-23.09.22:840][  0]LogWindows:    1. 'AMD Radeon HD 8570' (P:0 D:0)
-[2019.10.22-23.09.22:841][  0]LogWindows: DebugString: FoundDriverCount:2 
-[2019.10.22-23.09.22:841][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 8570
-[2019.10.22-23.09.22:841][  0]LogD3D11RHI:   Driver Version: Crimson 16.6 (internal:21.19.144.32768, unified:21.19.144.32768)
-[2019.10.22-23.09.22:841][  0]LogD3D11RHI:      Driver Date: 10-25-2016
-[2019.10.22-23.09.22:841][  0]LogRHI: Texture pool is 703 MB (70% of 1005 MB)
-[2019.10.22-23.09.22:894][  0]LogD3D11RHI: Async texture creation enabled
-[2019.10.22-23.09.22:899][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.10.22-23.09.22:900][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.10.22-23.09.22:900][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
-[2019.10.22-23.09.22:907][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
-[2019.10.22-23.09.23:655][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2019.10.22-23.09.23:678][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2019.10.22-23.09.23:724][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2019.10.22-23.09.23:765][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2019.10.22-23.09.23:816][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2019.10.22-23.09.23:871][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2019.10.22-23.09.23:932][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2019.10.22-23.09.23:987][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2019.10.22-23.09.24:034][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2019.10.22-23.09.24:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2019.10.22-23.09.24:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2019.10.22-23.09.24:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2019.10.22-23.09.24:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2019.10.22-23.09.24:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2019.10.22-23.09.24:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2019.10.22-23.09.24:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2019.10.22-23.09.24:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2019.10.22-23.09.24:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2019.10.22-23.09.24:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2019.10.22-23.09.24:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2019.10.22-23.09.24:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2019.10.22-23.09.24:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2019.10.22-23.09.24:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2019.10.22-23.09.24:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2019.10.22-23.09.24:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2019.10.22-23.09.24:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2019.10.22-23.09.24:141][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2019.10.22-23.09.24:150][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2019.10.22-23.09.24:235][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2019.10.22-23.09.24:235][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2019.10.22-23.09.24:262][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2019.10.22-23.09.24:262][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2019.10.22-23.09.24:294][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2019.10.22-23.09.24:336][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2019.10.22-23.09.24:383][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2019.10.22-23.09.24:461][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2019.10.22-23.09.24:523][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2019.10.22-23.09.24:523][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2019.10.22-23.09.24:523][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2019.10.22-23.09.24:540][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2019.10.22-23.09.24:833][  0]LogShaderCompilers: Guid format shader working directory is -11 characters bigger than the processId version (../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Intermediate/Shaders/WorkingDirectory/14284/).
-[2019.10.22-23.09.24:834][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/W207542133/AppData/Local/Temp/UnrealShaderWorkingDir/982D890D4551C99B138CBB9F9AB8238D/'.
-[2019.10.22-23.09.24:872][  0]LogXGEController: Cleaning working directory: C:/Users/W207542133/AppData/Local/Temp/UnrealXGEWorkingDir/
-[2019.10.22-23.09.24:934][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
-[2019.10.22-23.09.29:742][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2019.10.22-23.09.31:215][  0]LogDerivedDataCache: Loaded boot cache 1.47s 71MB C:/Users/W207542133/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.10.22-23.09.31:215][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/W207542133/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
-[2019.10.22-23.09.31:215][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/W207542133/Desktop/halloween/Rand_halloween/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2019.10.22-23.09.31:215][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2019.10.22-23.09.31:215][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/W207542133/Desktop/halloween/Rand_halloween/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.22-23.09.31:215][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2019.10.22-23.09.31:352][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2019.10.22-23.09.31:352][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2019.10.22-23.09.31:352][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2019.10.22-23.09.31:385][  0]LogDerivedDataCache: Using Local data cache path C:/Users/W207542133/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2019.10.22-23.09.31:385][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2019.10.22-23.09.31:385][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2019.10.22-23.09.31:417][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2019.10.22-23.09.31:418][  0]LogSlate: Using FreeType 2.6.0
-[2019.10.22-23.09.31:475][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2019.10.22-23.09.33:632][  0]LogAssetRegistry: FAssetRegistry took 0.0459 seconds to start up
-[2019.10.22-23.09.34:280][  0]LogInit: Selected Device Profile: [Windows]
-[2019.10.22-23.09.35:837][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2019.10.22-23.09.35:838][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2019.10.22-23.09.35:838][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2019.10.22-23.09.35:838][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2019.10.22-23.09.35:838][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2019.10.22-23.09.36:096][  0]LogNetVersion: Rand_halloween 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3059084179)
-[2019.10.22-23.09.48:607][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.198951 seconds
-[2019.10.22-23.09.48:614][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
-[2019.10.22-23.09.48:614][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
-[2019.10.22-23.09.48:614][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2019.10.22-23.10.51:860][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2019.10.22-23.10.51:877][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2019.10.22-23.10.52:309][  0]SourceControl: Source control is disabled
-[2019.10.22-23.10.52:310][  0]SourceControl: Source control is disabled
-[2019.10.22-23.10.52:344][  0]SourceControl: Source control is disabled
-[2019.10.22-23.10.52:348][  0]SourceControl: Source control is disabled
-[2019.10.22-23.10.53:427][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2019.10.22-23.10.53:951][  0]LogOcInput: OculusInput pre-init called
-[2019.10.22-23.10.56:153][  0]LogEngine: Initializing Engine...
-[2019.10.22-23.10.56:154][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2019.10.22-23.10.56:156][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2019.10.22-23.10.58:172][  0]LogInit: Initializing FReadOnlyCVARCache
-[2019.10.22-23.10.58:216][  0]LogAIModule: Creating AISystem for world Untitled
-[2019.10.22-23.10.58:223][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.22-23.10.58:483][  0]LogInit: FAudioDevice initialized.
-[2019.10.22-23.10.58:483][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2019.10.22-23.10.58:825][  0]LogDerivedDataCache: Saved boot cache 0.34s 71MB C:/Users/W207542133/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
-[2019.10.22-23.10.58:866][  0]LogInit: Texture streaming: Enabled
-[2019.10.22-23.10.59:132][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2019.10.22-23.10.59:132][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={51077405-4FF5-D206-8479-24B49B04EBB5}
-[2019.10.22-23.10.59:184][  0]LogInit: Transaction tracking system initialized
-[2019.10.22-23.10.59:721][  0]BlueprintLog: New page: Editor Load
-[2019.10.22-23.11.00:220][  0]LocalizationService: Localization service is disabled
-[2019.10.22-23.11.04:793][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2019.10.22-23.11.04:794][  0]LogCook: Display: Mobile HDR setting 1
-[2019.10.22-23.11.05:434][  0]LogFileCache: Scanning file cache for directory 'C:/Users/W207542133/Desktop/halloween/Rand_halloween/Content/' took 0.05s
-[2019.10.22-23.11.10:084][  0]SourceControl: Source control is disabled
-[2019.10.22-23.11.10:084][  0]Cmd: MAP LOAD FILE="../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/Rand_halloween/Rand_tower.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.22-23.11.10:086][  0]LightingResults: New page: Lighting Build
-[2019.10.22-23.11.10:112][  0]MapCheck: New page: Map Check
-[2019.10.22-23.11.10:112][  0]LightingResults: New page: Lighting Build
-[2019.10.22-23.11.10:153][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
-[2019.10.22-23.11.17:763][  0]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
-[2019.10.22-23.11.18:359][  0]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
-[2019.10.22-23.11.18:677][  0]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
-[2019.10.22-23.11.19:811][  0]LogMaterial: Display: Missing cached shader map for material M_Terrain_Shader, compiling. 
-[2019.10.22-23.11.19:867][  0]LogAIModule: Creating AISystem for world Rand_tower
-[2019.10.22-23.11.28:314][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.22-23.11.28:337][  0]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
-[2019.10.22-23.11.28:337][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.22-23.11.28:337][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.153ms to complete.
-[2019.10.22-23.11.28:337][  0]LogFileHelpers: Loading map 'Rand_tower' took 18.252
-[2019.10.22-23.11.28:544][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.22-23.11.28:554][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.22-23.11.28:561][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.22-23.11.28:570][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.22-23.11.28:610][  0]LogCollectionManager: Loaded 0 collections in 0.002988 seconds
-[2019.10.22-23.11.28:655][  0]LogFileCache: Scanning file cache for directory 'C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Collections/' took 0.01s
-[2019.10.22-23.11.28:655][  0]LogFileCache: Scanning file cache for directory 'C:/Users/W207542133/Desktop/halloween/Rand_halloween/Content/Developers/W207542133/Collections/' took 0.01s
-[2019.10.22-23.11.28:655][  0]LogFileCache: Scanning file cache for directory 'C:/Users/W207542133/Desktop/halloween/Rand_halloween/Content/Collections/' took 0.01s
-[2019.10.22-23.11.28:655][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
-[2019.10.22-23.11.28:667][  0]LogContentBrowser: Native class hierarchy populated in 0.0117 seconds. Added 2732 classes and 659 folders.
-[2019.10.22-23.11.28:678][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.10.22-23.11.28:802][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.28:842][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.28:858][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.28:876][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.28:904][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.28:934][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.28:963][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.28:999][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.29:032][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.29:036][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.29:057][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.29:082][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.29:084][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.29:096][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.29:149][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.29:242][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.29:244][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.29:276][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.29:278][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.29:332][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.29:367][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.29:416][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.29:466][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.29:548][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.29:550][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.29:637][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
-[2019.10.22-23.11.33:480][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.10.22-23.11.33:489][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
-[2019.10.22-23.11.33:615][  0]LogSlate: Took 0.027714 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2019.10.22-23.11.33:672][  0]LogSlate: Took 0.055372 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2019.10.22-23.11.33:726][  0]LogSlate: Took 0.050454 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2019.10.22-23.11.34:251][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
-[2019.10.22-23.11.34:569][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2019.10.22-23.11.34:569][  0]LogLoad: (Engine Initialization) Total time: 205.63 seconds
-[2019.10.22-23.11.34:569][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2019.10.22-23.11.34:623][  0]LogAssetRegistry: Asset discovery search completed in 121.0113 seconds
-[2019.10.22-23.11.34:626][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
-[2019.10.22-23.11.34:626][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000051 seconds (updated 0 objects)
-[2019.10.22-23.11.34:628][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2019.10.22-23.11.34:682][  0]LogSlate: Took 0.021642 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.10.22-23.11.55:005][455]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.11.57:558][511]LogSlate: Window 'Message Log' being destroyed
-[2019.10.22-23.11.57:561][511]LogSlate: Window 'Message Log' being destroyed
-[2019.10.22-23.13.32:445][330]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.13.58:595][729]LogSlate: Took 0.000222 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2019.10.22-23.14.00:210][729]LogTexture: Display: Building textures: T_GoodSky_Lightning (AutoDXT, 1024X1024)
-[2019.10.22-23.14.00:211][729]LogTexture: Display: Building textures: T_GoodSky_noise_smooth (AutoDXT, 512X512)
-[2019.10.22-23.14.00:211][729]LoadErrors: Warning: Linear color curves now accurately handle RGB values > 1. If you were relying on HSV clamping, please update Curve_GoodSky_DomeColor
-[2019.10.22-23.14.00:211][729]LoadErrors: Warning: Linear color curves now accurately handle RGB values > 1. If you were relying on HSV clamping, please update Curve_GoodSky_horizon_Color
-[2019.10.22-23.14.00:635][729]LogStaticMesh: Building static mesh SM_GoodSky_Hemisphere...
-[2019.10.22-23.14.00:766][729]LogTexture: Display: Building textures: T_GoodSky_clouds_C (AutoDXT, 2048X512)
-[2019.10.22-23.14.00:766][729]LogTexture: Display: Building textures: T_GoodSky_Moon (AutoDXT, 512X512)
-[2019.10.22-23.14.00:766][729]LogTexture: Display: Building textures: T_GoodSky_clouds_B (AutoDXT, 2048X512)
-[2019.10.22-23.14.00:766][729]LogTexture: Display: Building textures: T_GoodSky_clouds_E (AutoDXT, 2048X512)
-[2019.10.22-23.14.00:766][729]LogStaticMesh: Built static mesh [0.15s] /Game/GoodSky/Source/Mesh/SM_GoodSky_Hemisphere.SM_GoodSky_Hemisphere
-[2019.10.22-23.14.01:495][729]LogTexture: Display: Building textures: T_GoodSky_clouds_A (AutoDXT, 2048X512)
-[2019.10.22-23.14.01:495][729]LogTexture: Display: Building textures: T_GoodSky_clouds_F (AutoDXT, 2048X512)
-[2019.10.22-23.14.01:495][729]LogTexture: Display: Building textures: T_GoodSky_clouds_D (AutoDXT, 2048X512)
-[2019.10.22-23.14.01:495][729]LogStaticMesh: Building static mesh SM_GoodSky_Sphere...
-[2019.10.22-23.14.01:535][729]LogStaticMesh: Built static mesh [0.07s] /Game/GoodSky/Source/Mesh/SM_GoodSky_Sphere.SM_GoodSky_Sphere
-[2019.10.22-23.14.03:794][729]LogTexture: Display: Building textures: T_GoodSky_SkyRing (AutoDXT, 256X256)
-[2019.10.22-23.14.03:794][729]LogTexture: Display: Building textures: T_GoodSky_clouds_sphere (AutoDXT, 2048X2048)
-[2019.10.22-23.14.03:794][729]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Sun_Stars, compiling. 
-[2019.10.22-23.14.03:927][729]LogStaticMesh: Building static mesh SM_GoodSky_StarMesh...
-[2019.10.22-23.14.03:929][729]LogStaticMesh: Built static mesh [0.08s] /Game/GoodSky/Source/ArrowTool/SM_GoodSky_StarMesh.SM_GoodSky_StarMesh
-[2019.10.22-23.14.04:692][729]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Moon, compiling. 
-[2019.10.22-23.14.04:827][729]LogMaterial: Display: Missing cached shader map for material M_GoodSky_SkyRing_, compiling. 
-[2019.10.22-23.14.04:870][729]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Base, compiling. 
-[2019.10.22-23.14.04:951][729]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Sun_Emissive, compiling. 
-[2019.10.22-23.14.04:969][729]LoadErrors: Warning: Linear color curves now accurately handle RGB values > 1. If you were relying on HSV clamping, please update Curve_GoodSky_BaseCloudColor
-[2019.10.22-23.14.04:969][729]LoadErrors: Warning: Linear color curves now accurately handle RGB values > 1. If you were relying on HSV clamping, please update Curve_GoodSky_AllOverlayColor
-[2019.10.22-23.14.05:201][729]LogMaterial: Display: Missing cached shader map for material M_GoodSky_Storm, compiling. 
-[2019.10.22-23.14.05:325][729]LogAIModule: Creating AISystem for world Level_GoodSky_Showcase
-[2019.10.22-23.14.06:167][729]LogAssetEditorManager: Opening Asset editor for World /Game/GoodSky/Maps/Level_GoodSky_Showcase.Level_GoodSky_Showcase
-[2019.10.22-23.14.06:335][729]LogUObjectHash: Compacting FUObjectHashTables data took   2.72ms
-[2019.10.22-23.14.06:376][729]Cmd: MAP LOAD FILE="../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/GoodSky/Maps/Level_GoodSky_Showcase.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.22-23.14.06:377][729]LightingResults: New page: Lighting Build
-[2019.10.22-23.14.06:378][729]LoadErrors: New page: Loading map: Level_GoodSky_Showcase.umap
-[2019.10.22-23.14.06:431][729]MapCheck: New page: Map Check
-[2019.10.22-23.14.06:431][729]LightingResults: New page: Lighting Build
-[2019.10.22-23.14.06:464][729]LogUObjectHash: Compacting FUObjectHashTables data took   2.10ms
-[2019.10.22-23.14.06:599][729]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.22-23.14.06:624][729]LogUObjectHash: Compacting FUObjectHashTables data took   1.68ms
-[2019.10.22-23.14.07:545][729]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.22-23.14.07:547][729]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.936ms to complete.
-[2019.10.22-23.14.07:548][729]LogFileHelpers: Loading map 'Level_GoodSky_Showcase' took 1.213
-[2019.10.22-23.14.30:703][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.14.30:887][807]LogSlate: Took 0.058919 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2019.10.22-23.14.41:691][121]LogSlate: Window 'Open external link' being destroyed
-[2019.10.22-23.15.08:067][309]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.15.19:377][755]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.15.21:628][ 15]LogEditorViewport: Clicking on Actor (LMB): CameraRig_Crane (CameraRig_Crane1)
-[2019.10.22-23.15.23:446][ 75]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
-[2019.10.22-23.15.27:358][227]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.15.37:560][632]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
-[2019.10.22-23.15.51:379][175]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
-[2019.10.22-23.15.52:063][200]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
-[2019.10.22-23.15.52:122][201]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Ring)
-[2019.10.22-23.15.52:420][202]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (Sky Ring)
-[2019.10.22-23.15.57:886][321]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.16.16:130][896]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StarMesh)
-[2019.10.22-23.16.20:425][ 60]LogEditorViewport: Clicking on Component (LMB): SceneComponent (DefaultSceneRoot)
-[2019.10.22-23.16.25:521][252]LogEditorViewport: Clicking on Component (LMB): SceneComponent (DefaultSceneRoot)
-[2019.10.22-23.16.26:354][283]LogEditorViewport: Clicking on Component (LMB): StaticMeshComponent (StaticMesh)
-[2019.10.22-23.16.29:292][369]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.17.17:028][609]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.17.25:876][902]LogAIModule: Creating AISystem for world Rand_tower
-[2019.10.22-23.17.25:882][902]LogAssetEditorManager: Opening Asset editor for World /Game/Rand_halloween/Rand_tower.Rand_tower
-[2019.10.22-23.17.25:910][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
-[2019.10.22-23.17.27:286][902]LogSlate: Window 'Save Content' being destroyed
-[2019.10.22-23.17.27:290][902]Cmd: MAP LOAD FILE="../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/Rand_halloween/Rand_tower.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2019.10.22-23.17.27:291][902]LightingResults: New page: Lighting Build
-[2019.10.22-23.17.27:293][902]LoadErrors: New page: Loading map: Rand_tower.umap
-[2019.10.22-23.17.27:294][902]MapCheck: New page: Map Check
-[2019.10.22-23.17.27:294][902]LightingResults: New page: Lighting Build
-[2019.10.22-23.17.27:322][902]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
-[2019.10.22-23.17.27:441][902]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2019.10.22-23.17.27:463][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.07ms
-[2019.10.22-23.17.27:534][902]Cmd: MAP CHECKDEP NOCLEARLOG
-[2019.10.22-23.17.27:536][902]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 1.956ms to complete.
-[2019.10.22-23.17.27:536][902]LogFileHelpers: Loading map 'Rand_tower' took 0.247
-[2019.10.22-23.17.32:460][ 40]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.17.34:177][ 92]Cmd: DELETE
-[2019.10.22-23.17.34:177][ 92]Cmd: ACTOR DELETE
-[2019.10.22-23.17.34:274][ 92]LogEditorActor: Deleted Actor: DirectionalLight
-[2019.10.22-23.17.34:331][ 92]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
-[2019.10.22-23.17.34:332][ 92]LogEditorActor: Deleted 1 Actors (0.099 secs)
-[2019.10.22-23.17.35:794][151]Cmd: DELETE
-[2019.10.22-23.17.35:794][151]Cmd: ACTOR DELETE
-[2019.10.22-23.17.35:798][151]LogEditorActor: Deleted Actor: AtmosphericFog
-[2019.10.22-23.17.35:837][151]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
-[2019.10.22-23.17.35:838][151]LogEditorActor: Deleted 1 Actors (0.043 secs)
-[2019.10.22-23.17.46:210][523]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.17.58:360][890]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.18.19:630][465]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.18.38:099][576]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.19.48:298][193]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.19.50:976][378]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.19.59:350][759]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.20.09:618][157]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.20.40:622][284]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.21.14:252][754]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.21.42:738][649]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
-[2019.10.22-23.21.55:260][ 21]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
-[2019.10.22-23.21.56:249][ 47]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
-[2019.10.22-23.22.13:305][526]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.22.24:373][870]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.22.34:972][192]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.22.45:827][512]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.22.56:905][906]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.22.58:335][949]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.22-23.22.58:377][949]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.22-23.22.58:381][949]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.22-23.22.58:383][949]PIE: New page: PIE session: Rand_tower (Oct 22, 2019, 1:22:58 PM)
-[2019.10.22-23.22.58:455][949]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
-[2019.10.22-23.22.58:531][949]LogPlayLevel: PIE: StaticDuplicateObject took: (0.075336s)
-[2019.10.22-23.22.58:532][949]LogAIModule: Creating AISystem for world Rand_tower
-[2019.10.22-23.22.58:534][949]LogPlayLevel: PIE: World Init took: (0.002872s)
-[2019.10.22-23.22.58:534][949]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.078554s)
-[2019.10.22-23.22.58:569][949]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
-[2019.10.22-23.22.58:573][949]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.22-23.22.58:601][949]LogInit: FAudioDevice initialized.
-[2019.10.22-23.23.00:702][949]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.10.22-23.23.00:748][949]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.22-18.23.00
-[2019.10.22-23.23.00:778][949]LogWorld: Bringing up level for play took: 0.037456
-[2019.10.22-23.23.00:899][949]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0016 seconds. Added 20 classes and 0 folders.
-[2019.10.22-23.23.01:012][949]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower 2.158
-[2019.10.22-23.23.01:012][949]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.22-23.23.22:471][663]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.22-23.23.22:483][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.22-23.23.22:534][663]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.22-23.23.22:534][663]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.22-23.23.22:579][663]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.22-23.23.22:588][663]LogUObjectHash: Compacting FUObjectHashTables data took   2.42ms
-[2019.10.22-23.23.22:631][664]LogPlayLevel: Display: Destroying online subsystem :Context_4
-[2019.10.22-23.23.24:725][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.23.25:380][744]LogSlate: Took 0.037593 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2019.10.22-23.23.37:049][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.23.37:119][ 72]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.22-23.23.37:127][ 72]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.22-23.23.37:127][ 72]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.22-23.23.37:127][ 72]PIE: New page: PIE session: Rand_tower (Oct 22, 2019, 1:23:37 PM)
-[2019.10.22-23.23.37:127][ 72]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
-[2019.10.22-23.23.37:152][ 72]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024732s)
-[2019.10.22-23.23.37:153][ 72]LogAIModule: Creating AISystem for world Rand_tower
-[2019.10.22-23.23.37:153][ 72]LogPlayLevel: PIE: World Init took: (0.000722s)
-[2019.10.22-23.23.37:153][ 72]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.025579s)
-[2019.10.22-23.23.37:175][ 72]LogUObjectHash: Compacting FUObjectHashTables data took   1.32ms
-[2019.10.22-23.23.37:178][ 72]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.22-23.23.37:201][ 72]LogInit: FAudioDevice initialized.
-[2019.10.22-23.23.37:226][ 72]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.10.22-23.23.37:228][ 72]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.22-18.23.37
-[2019.10.22-23.23.37:228][ 72]LogWorld: Bringing up level for play took: 0.001367
-[2019.10.22-23.23.37:242][ 72]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower 0.387
-[2019.10.22-23.23.37:242][ 72]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.22-23.23.45:015][340]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.22-23.23.45:016][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.22-23.23.45:076][340]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.22-23.23.45:077][340]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.22-23.23.45:104][340]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.22-23.23.45:106][340]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
-[2019.10.22-23.23.45:147][341]LogPlayLevel: Display: Destroying online subsystem :Context_5
-[2019.10.22-23.23.47:148][401]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2019.10.22-23.23.51:153][500]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.24.19:937][327]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.24.39:476][886]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.24.39:616][887]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
-[2019.10.22-23.24.40:002][887]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower36DBFC004B863D2E839CC09D5A355DBC.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/Rand_halloween/Rand_tower.umap'
-[2019.10.22-23.25.15:280][ 34]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.25.30:437][458]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.25.32:991][461]LogTexture: Display: Building textures: Texture2D_2 (G8, 128X128)
-[2019.10.22-23.26.14:199][831]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.26.20:678][ 52]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.26.45:799][889]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.27.36:787][495]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.29.06:066][231]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.29.25:077][881]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.30.04:806][369]LogTexture: Display: Building textures: T_big_rock_02_N (BC5, 4096X4096)
-[2019.10.22-23.30.04:806][369]LogTexture: Display: Building textures: T_big_rock_02_BC (AutoDXT, 4096X4096)
-[2019.10.22-23.30.04:806][369]LogTexture: Display: Building textures: T_atlas_mid_rocks_BC (AutoDXT, 4096X4096)
-[2019.10.22-23.30.04:806][369]LogTexture: Display: Building textures: T_big_rock_02_MT_R_AO (AutoDXT, 4096X4096)
-[2019.10.22-23.30.04:806][369]LogMaterial: Display: Missing cached shader map for material M_Rocks, compiling. 
-[2019.10.22-23.30.05:320][369]LogStaticMesh: Building static mesh SM_Big_Rock_02...
-[2019.10.22-23.30.05:560][369]LogStaticMesh: Built static mesh [0.27s] /Game/Environment_Set/Environment/Rocks/Models/SM_Big_Rock_02.SM_Big_Rock_02
-[2019.10.22-23.30.05:679][369]LogActorFactory: Actor Factory created SM_Big_Rock_02
-[2019.10.22-23.30.14:506][635]LogActorFactory: Actor Factory created SM_Big_Rock_02
-[2019.10.22-23.30.16:519][694]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.30.47:169][563]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.31.04:087][949]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.31.51:087][384]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.32.50:585][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.32.57:567][562]LogActorFactory: Actor Factory created SM_Middle_Rock_03
-[2019.10.22-23.32.59:253][612]LogActorFactory: Actor Factory created SM_Middle_Rock_03
-[2019.10.22-23.33.02:435][683]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.33.20:050][ 28]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.33.20:537][ 30]LogStaticMesh: Building static mesh SM_Middle_Rock_01...
-[2019.10.22-23.33.20:606][ 30]LogStaticMesh: Built static mesh [0.13s] /Game/Environment_Set/Environment/Rocks/Models/SM_Middle_Rock_01.SM_Middle_Rock_01
-[2019.10.22-23.33.20:729][ 30]LogActorFactory: Actor Factory created SM_Middle_Rock_01
-[2019.10.22-23.33.22:051][ 70]LogActorFactory: Actor Factory created SM_Middle_Rock_01
-[2019.10.22-23.33.23:745][ 99]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.33.31:961][285]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.33.36:067][409]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.33.45:001][680]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2019.10.22-23.33.48:969][773]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.33.59:999][774]LogTexture: Display: Building textures: T_big_rock_01_BC (AutoDXT, 4096X4096)
-[2019.10.22-23.34.00:000][774]LogStaticMesh: Building static mesh SM_Big_Rock_01...
-[2019.10.22-23.34.00:224][774]LogStaticMesh: Built static mesh [0.25s] /Game/Environment_Set/Environment/Rocks/Models/SM_Big_Rock_01.SM_Big_Rock_01
-[2019.10.22-23.34.00:353][774]LogActorFactory: Actor Factory created SM_Big_Rock_01
-[2019.10.22-23.34.02:095][822]LogActorFactory: Actor Factory created SM_Big_Rock_01
-[2019.10.22-23.34.03:653][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.34.20:881][337]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.34.24:696][466]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.34.27:894][573]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.34.32:112][691]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.34.32:735][692]LogStaticMesh: Building static mesh SM_Big_Rock_03...
-[2019.10.22-23.34.32:914][692]LogStaticMesh: Built static mesh [0.22s] /Game/Environment_Set/Environment/Rocks/Models/SM_Big_Rock_03.SM_Big_Rock_03
-[2019.10.22-23.34.32:988][692]LogActorFactory: Actor Factory created SM_Big_Rock_03
-[2019.10.22-23.34.34:723][750]LogActorFactory: Actor Factory created SM_Big_Rock_03
-[2019.10.22-23.34.41:037][939]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.34.41:308][941]LogActorFactory: Actor Factory created SM_Big_Rock_02
-[2019.10.22-23.34.42:667][982]LogActorFactory: Actor Factory created SM_Big_Rock_02
-[2019.10.22-23.34.43:892][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.34.44:166][  8]LogActorFactory: Actor Factory created SM_Big_Rock_01
-[2019.10.22-23.34.45:235][ 40]LogActorFactory: Actor Factory created SM_Big_Rock_01
-[2019.10.22-23.34.47:261][ 92]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.34.47:496][ 93]LogStaticMesh: Building static mesh SM_Middle_Rock_02...
-[2019.10.22-23.34.47:612][ 93]LogStaticMesh: Built static mesh [0.14s] /Game/Environment_Set/Environment/Rocks/Models/SM_Middle_Rock_02.SM_Middle_Rock_02
-[2019.10.22-23.34.47:696][ 93]LogActorFactory: Actor Factory created SM_Middle_Rock_02
-[2019.10.22-23.34.48:613][119]LogActorFactory: Actor Factory created SM_Middle_Rock_02
-[2019.10.22-23.34.50:022][143]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.34.50:370][146]LogActorFactory: Actor Factory created SM_Middle_Rock_01
-[2019.10.22-23.34.51:809][188]LogActorFactory: Actor Factory created SM_Middle_Rock_01
-[2019.10.22-23.34.53:498][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.34.57:814][286]LogActorFactory: Actor Factory created SM_Middle_Rock_03
-[2019.10.22-23.34.59:043][322]LogActorFactory: Actor Factory created SM_Middle_Rock_03
-[2019.10.22-23.35.00:270][348]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.35.57:625][110]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.35.57:725][110]LogUObjectHash: Compacting FUObjectHashTables data took   2.21ms
-[2019.10.22-23.35.57:968][110]LogTexture: Display: Building textures: Texture2D_0 (BGRA8, 512X512)
-[2019.10.22-23.35.58:226][110]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower_Auto18F4967E24BD7F10755C22E9DFC362D1D.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Autosaves/Game/Rand_halloween/Rand_tower_Auto1.umap'
-[2019.10.22-23.35.58:242][110]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Rand_halloween/Rand_tower' took 0.544
-[2019.10.22-23.35.58:242][110]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.544
-[2019.10.22-23.36.41:697][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.36.41:765][424]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.22-23.36.41:774][424]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.22-23.36.41:774][424]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.22-23.36.41:774][424]PIE: New page: PIE session: Rand_tower (Oct 22, 2019, 1:36:41 PM)
-[2019.10.22-23.36.41:774][424]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
-[2019.10.22-23.36.41:801][424]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026020s)
-[2019.10.22-23.36.41:801][424]LogAIModule: Creating AISystem for world Rand_tower
-[2019.10.22-23.36.41:801][424]LogPlayLevel: PIE: World Init took: (0.000744s)
-[2019.10.22-23.36.41:801][424]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.026917s)
-[2019.10.22-23.36.41:824][424]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
-[2019.10.22-23.36.41:827][424]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.22-23.36.41:851][424]LogInit: FAudioDevice initialized.
-[2019.10.22-23.36.41:878][424]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.10.22-23.36.41:881][424]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.22-18.36.41
-[2019.10.22-23.36.41:881][424]LogWorld: Bringing up level for play took: 0.001785
-[2019.10.22-23.36.41:895][424]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower 1.02
-[2019.10.22-23.36.41:895][424]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.22-23.37.10:622][380]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.22-23.37.10:623][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.22-23.37.10:684][380]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.22-23.37.10:684][380]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.22-23.37.10:712][380]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.22-23.37.10:716][380]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
-[2019.10.22-23.37.10:761][381]LogPlayLevel: Display: Destroying online subsystem :Context_6
-[2019.10.22-23.37.31:156][ 45]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.37.35:066][173]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.10.22-23.37.49:636][672]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.38.17:041][579]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.38.54:115][854]LogActorFactory: Actor Factory created SM_TableRound
-[2019.10.22-23.38.56:506][936]LogActorFactory: Actor Factory created SM_TableRound
-[2019.10.22-23.39.05:838][259]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.39.24:877][937]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_TableRound)
-[2019.10.22-23.39.25:857][967]Cmd: DELETE
-[2019.10.22-23.39.25:858][967]Cmd: ACTOR DELETE
-[2019.10.22-23.39.25:860][967]LogEditorActor: Deleted Actor: StaticMeshActor
-[2019.10.22-23.39.25:887][967]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
-[2019.10.22-23.39.25:888][967]LogEditorActor: Deleted 1 Actors (0.029 secs)
-[2019.10.22-23.39.38:767][383]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.40.13:025][461]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.40.25:060][875]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.40.51:102][823]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
-[2019.10.22-23.41.10:908][492]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.41.51:496][ 62]Cmd: EDIT CUT
-[2019.10.22-23.41.51:521][ 62]LogEditorActor: Deleted Actor: Brush
-[2019.10.22-23.41.51:522][ 62]LogEditorActor: Deleted Actor: Brush
-[2019.10.22-23.41.51:553][ 62]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
-[2019.10.22-23.41.51:555][ 62]LogEditorActor: Deleted 2 Actors (0.047 secs)
-[2019.10.22-23.41.54:653][187]Cmd: EDIT PASTE
-[2019.10.22-23.42.40:381][829]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.42.52:509][200]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.43.06:165][624]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.43.54:863][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.44.04:128][584]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.44.12:502][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.45.07:305][809]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.45.22:334][310]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.45.30:166][599]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.45.41:238][979]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.45.49:991][232]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.46.37:122][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.46.50:219][297]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.47.02:511][711]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.47.11:658][ 14]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.47.31:117][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.47.35:523][815]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
-[2019.10.22-23.47.36:270][833]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.48.08:039][900]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.48.12:188][ 29]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.10.22-23.48.18:878][228]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.49.11:739][854]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.49.58:664][605]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.50.04:255][829]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.10.22-23.50.07:044][935]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.50.12:343][149]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.50.41:300][248]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.51.09:252][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.51.13:174][517]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.51.18:793][730]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.51.23:731][929]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.51.38:233][495]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.51.44:685][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.52.30:202][562]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.53.32:645][929]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.22-23.53.32:705][929]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
-[2019.10.22-23.53.33:112][929]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower_Auto2F6851EC0444E29B03B07B0B666AB2E7E.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Autosaves/Game/Rand_halloween/Rand_tower_Auto2.umap'
-[2019.10.22-23.53.33:129][929]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Rand_halloween/Rand_tower' took 0.460
-[2019.10.22-23.53.33:129][929]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.460
-[2019.10.22-23.53.36:891][ 66]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.22-23.53.53:477][639]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.00.03:214][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.00.05:515][101]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.10.23-00.00.11:031][299]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.23-00.00.14:307][422]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.00.19:987][638]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.00.59:692][245]Cmd: DELETE
-[2019.10.23-00.00.59:692][245]Cmd: ACTOR DELETE
-[2019.10.23-00.00.59:703][245]LogEditorActor: Deleted Actor: Brush
-[2019.10.23-00.00.59:732][245]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
-[2019.10.23-00.00.59:806][245]LogEditorActor: Deleted 1 Actors (0.113 secs)
-[2019.10.23-00.01.05:857][501]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.01.08:680][617]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.10.23-00.01.23:342][189]Cmd: DELETE
-[2019.10.23-00.01.23:342][189]Cmd: ACTOR DELETE
-[2019.10.23-00.01.23:355][189]LogEditorActor: Deleted Actor: Brush
-[2019.10.23-00.01.23:382][189]LogUObjectHash: Compacting FUObjectHashTables data took   1.17ms
-[2019.10.23-00.01.23:394][189]LogEditorActor: Deleted 1 Actors (0.051 secs)
-[2019.10.23-00.01.41:336][917]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.01.54:562][438]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.02.04:195][826]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.03.12:250][483]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.23-00.03.19:920][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.03.33:216][261]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.03.57:616][196]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.04.29:472][396]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.04.30:359][427]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:90456).
-[2019.10.23-00.05.01:126][575]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.05.25:459][478]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.06.02:054][885]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.23-00.06.02:128][885]LogUObjectHash: Compacting FUObjectHashTables data took   0.86ms
-[2019.10.23-00.06.02:575][885]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower_Auto31345D4D5437248DAE1CB6F8C737389D0.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Autosaves/Game/Rand_halloween/Rand_tower_Auto3.umap'
-[2019.10.23-00.06.02:588][885]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Rand_halloween/Rand_tower' took 0.495
-[2019.10.23-00.06.02:588][885]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.495
-[2019.10.23-00.06.47:637][644]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.07.03:706][283]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.07.34:412][492]Cmd: DELETE
-[2019.10.23-00.07.34:412][492]Cmd: ACTOR DELETE
-[2019.10.23-00.07.34:421][492]LogEditorActor: Deleted Actor: Brush
-[2019.10.23-00.07.34:448][492]LogUObjectHash: Compacting FUObjectHashTables data took   2.17ms
-[2019.10.23-00.07.34:477][492]LogEditorActor: Deleted 1 Actors (0.065 secs)
-[2019.10.23-00.07.44:246][867]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.07.48:350][ 28]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.10.23-00.07.55:870][325]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.08.17:724][173]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.08.38:113][932]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.23-00.09.16:758][390]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.09.38:982][266]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.10.04:247][223]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.10.23:245][929]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
-[2019.10.23-00.10.44:341][728]LogConsoleManager: Warning: Console object named 'ActorComponents.Enable' already exists but is being registered again, but we weren't expected it to be! (FConsoleManager::AddConsoleObject)
-[2019.10.23-00.15.10:390][695]Cmd: DELETE
-[2019.10.23-00.15.10:390][695]Cmd: ACTOR DELETE
-[2019.10.23-00.15.10:409][695]LogEditorActor: Deleted Actor: Brush
-[2019.10.23-00.15.10:437][695]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
-[2019.10.23-00.15.10:444][695]LogEditorActor: Deleted 1 Actors (0.053 secs)
-[2019.10.23-00.16.02:650][691]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.23-00.16.02:725][691]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
-[2019.10.23-00.16.03:113][691]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower_Auto4A5673017406FDF026687E2A2AECB7AD4.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Autosaves/Game/Rand_halloween/Rand_tower_Auto4.umap'
-[2019.10.23-00.16.03:130][691]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Rand_halloween/Rand_tower' took 0.438
-[2019.10.23-00.16.03:130][691]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.438
-[2019.10.23-00.18.04:322][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.18.04:403][344]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.23-00.18.04:413][344]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.23-00.18.04:413][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.23-00.18.04:413][344]PIE: New page: PIE session: Rand_tower (Oct 22, 2019, 2:18:04 PM)
-[2019.10.23-00.18.04:413][344]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
-[2019.10.23-00.18.04:448][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.034951s)
-[2019.10.23-00.18.04:449][344]LogAIModule: Creating AISystem for world Rand_tower
-[2019.10.23-00.18.04:449][344]LogPlayLevel: PIE: World Init took: (0.000780s)
-[2019.10.23-00.18.04:449][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.035959s)
-[2019.10.23-00.18.04:474][344]LogUObjectHash: Compacting FUObjectHashTables data took   2.14ms
-[2019.10.23-00.18.04:476][344]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.23-00.18.04:500][344]LogInit: FAudioDevice initialized.
-[2019.10.23-00.18.04:524][344]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.10.23-00.18.04:527][344]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.22-19.18.04
-[2019.10.23-00.18.04:527][344]LogWorld: Bringing up level for play took: 0.001922
-[2019.10.23-00.18.04:541][344]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower -0.397
-[2019.10.23-00.18.04:541][344]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.23-00.18.23:421][ 33]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.23-00.18.23:421][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.23-00.18.23:467][ 33]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.23-00.18.23:468][ 33]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.23-00.18.23:497][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.23-00.18.23:501][ 33]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
-[2019.10.23-00.18.23:520][ 34]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2019.10.23-00.18.29:205][249]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.18.45:671][877]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.19.08:511][747]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.23-00.19.08:519][747]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.23-00.19.08:519][747]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.23-00.19.08:520][747]PIE: New page: PIE session: Rand_tower (Oct 22, 2019, 2:19:08 PM)
-[2019.10.23-00.19.08:520][747]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
-[2019.10.23-00.19.08:558][747]LogPlayLevel: PIE: StaticDuplicateObject took: (0.037751s)
-[2019.10.23-00.19.08:558][747]LogAIModule: Creating AISystem for world Rand_tower
-[2019.10.23-00.19.08:558][747]LogPlayLevel: PIE: World Init took: (0.000717s)
-[2019.10.23-00.19.08:558][747]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.038615s)
-[2019.10.23-00.19.08:585][747]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
-[2019.10.23-00.19.08:587][747]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.23-00.19.08:612][747]LogInit: FAudioDevice initialized.
-[2019.10.23-00.19.08:638][747]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.10.23-00.19.08:641][747]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.22-19.19.08
-[2019.10.23-00.19.08:641][747]LogWorld: Bringing up level for play took: 0.001956
-[2019.10.23-00.19.08:655][747]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower -0.284
-[2019.10.23-00.19.08:655][747]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.23-00.19.24:204][290]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-138.88 Y=8.84 Z=0.00 Location: X=-562.86 Y=-140.13 Z=244.61 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.125 Actor:None Component:ModelComponent_314 BoneName:None (0 other events since notify)
-[2019.10.23-00.19.43:002][996]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.23-00.19.43:002][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.23-00.19.43:054][996]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.23-00.19.43:054][996]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.23-00.19.43:084][996]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.23-00.19.43:087][996]LogUObjectHash: Compacting FUObjectHashTables data took   1.76ms
-[2019.10.23-00.19.43:124][997]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2019.10.23-00.19.48:559][170]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
-[2019.10.23-00.19.50:496][222]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.23-00.20.26:384][255]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.20.28:578][316]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.23-00.20.28:585][316]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.23-00.20.28:586][316]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.23-00.20.28:586][316]PIE: New page: PIE session: Rand_tower (Oct 22, 2019, 2:20:28 PM)
-[2019.10.23-00.20.28:586][316]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
-[2019.10.23-00.20.28:621][316]LogPlayLevel: PIE: StaticDuplicateObject took: (0.035148s)
-[2019.10.23-00.20.28:621][316]LogAIModule: Creating AISystem for world Rand_tower
-[2019.10.23-00.20.28:622][316]LogPlayLevel: PIE: World Init took: (0.000748s)
-[2019.10.23-00.20.28:622][316]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.036024s)
-[2019.10.23-00.20.28:646][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
-[2019.10.23-00.20.28:648][316]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.23-00.20.28:672][316]LogInit: FAudioDevice initialized.
-[2019.10.23-00.20.28:699][316]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.10.23-00.20.28:702][316]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.22-19.20.28
-[2019.10.23-00.20.28:702][316]LogWorld: Bringing up level for play took: 0.001871
-[2019.10.23-00.20.28:716][316]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower -0.224
-[2019.10.23-00.20.28:716][316]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.23-00.20.50:900][ 84]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-131.11 Y=11.76 Z=0.00 Location: X=-562.52 Y=-140.13 Z=251.99 Normal: X=0.00 Y=1.00 Z=0.00 PenetrationDepth:0.125 Actor:None Component:ModelComponent_314 BoneName:None (0 other events since notify)
-[2019.10.23-00.20.59:200][383]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.23-00.20.59:200][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.23-00.20.59:265][383]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.23-00.20.59:266][383]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.23-00.20.59:302][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.23-00.20.59:305][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.21ms
-[2019.10.23-00.20.59:351][384]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2019.10.23-00.21.05:046][553]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.21.19:715][999]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.21.19:815][  2]LogTemp: Repeating last play command: Selected Viewport
-[2019.10.23-00.21.19:824][  2]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.23-00.21.19:824][  2]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2019.10.23-00.21.19:824][  2]PIE: New page: PIE session: Rand_tower (Oct 22, 2019, 2:21:19 PM)
-[2019.10.23-00.21.19:825][  2]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
-[2019.10.23-00.21.19:861][  2]LogPlayLevel: PIE: StaticDuplicateObject took: (0.036332s)
-[2019.10.23-00.21.19:861][  2]LogAIModule: Creating AISystem for world Rand_tower
-[2019.10.23-00.21.19:861][  2]LogPlayLevel: PIE: World Init took: (0.000489s)
-[2019.10.23-00.21.19:862][  2]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.036959s)
-[2019.10.23-00.21.19:885][  2]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
-[2019.10.23-00.21.19:886][  2]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2019.10.23-00.21.19:910][  2]LogInit: FAudioDevice initialized.
-[2019.10.23-00.21.19:934][  2]LogLoad: Game class is 'FirstPersonGameMode_C'
-[2019.10.23-00.21.19:937][  2]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.22-19.21.19
-[2019.10.23-00.21.19:937][  2]LogWorld: Bringing up level for play took: 0.001933
-[2019.10.23-00.21.19:951][  2]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower 1.01
-[2019.10.23-00.21.19:951][  2]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.23-00.21.38:362][646]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.23-00.21.38:362][646]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.23-00.21.38:420][646]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2019.10.23-00.21.38:421][646]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
-[2019.10.23-00.21.38:450][646]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2019.10.23-00.21.38:453][646]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
-[2019.10.23-00.21.38:496][647]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2019.10.23-00.21.50:144][ 66]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.21.54:595][245]Cmd: BRUSH ADD SELECTNEWBRUSH
-[2019.10.23-00.22.01:970][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.22.18:638][219]LogSlate: FSceneViewport::OnFocusLost() reason 2
-[2019.10.23-00.22.22:347][362]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.22.31:098][704]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.22.46:760][307]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.23.15:702][429]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.23.35:350][194]LogEditorViewport: Clicking on Actor (LMB): Brush (Curved Stair Brush)
-[2019.10.23-00.23.38:078][303]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.24.02:699][248]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.24.34:916][449]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.24.48:581][879]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.25.10:389][675]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.25.21:215][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.27.36:190][448]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2019.10.23-00.28.01:169][524]LogUObjectHash: Compacting FUObjectHashTables data took   2.04ms
-[2019.10.23-00.28.01:618][524]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower_Auto50524A72F492382614F87B7BEB6B6FB9D.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Autosaves/Game/Rand_halloween/Rand_tower_Auto5.umap'
-[2019.10.23-00.28.01:638][524]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Rand_halloween/Rand_tower' took 0.519
-[2019.10.23-00.28.01:638][524]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.519
-[2019.10.23-00.34.09:689][693]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
-[2019.10.23-00.34.26:276][198]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.32.35:929][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Engine.ini]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Engine.ini]
+[2019.10.23-01.32.35:930][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Engine.ini]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Engine.ini]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.10.23-01.32.35:930][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Engine.ini]
+[2019.10.23-01.32.35:930][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Engine.ini]
+[2019.10.23-01.32.35:932][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.23-01.32.35:932][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.23-01.32.35:933][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.23-01.32.35:933][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.23-01.32.35:933][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.23-01.32.35:933][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
+[2019.10.23-01.32.35:933][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.23-01.32.35:933][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.23-01.32.35:933][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.23-01.32.35:933][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.23-01.32.35:933][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.23-01.32.35:933][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.23-01.32.35:933][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.23-01.32.35:933][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.23-01.32.35:933][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.23-01.32.35:933][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.23-01.32.35:933][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.23-01.32.35:933][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.23-01.32.35:933][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.23-01.32.35:933][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
+[2019.10.23-01.32.35:933][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.23-01.32.35:933][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.23-01.32.35:933][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.23-01.32.35:933][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.10.23-01.32.35:979][  0]LogHAL: Display: Platform has ~ 16 GB [17119154176 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.10.23-01.32.35:979][  0]LogInit: Going up to parent DeviceProfile []
+[2019.10.23-01.32.35:979][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.10.23-01.32.35:979][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
+[2019.10.23-01.32.35:979][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Scalability.ini]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.10.23-01.32.35:980][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Config/Windows/Engine.ini]
+[2019.10.23-01.32.35:980][  0]LogInit: Computer: SW-WLC124-09
+[2019.10.23-01.32.35:980][  0]LogInit: User: W207542133
+[2019.10.23-01.32.35:980][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.10.23-01.32.35:980][  0]LogInit: High frequency timer resolution =3.312642 MHz
+[2019.10.23-01.32.35:980][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.10.23-01.32.35:980][  0]LogMemory: Platform Memory Stats for Windows
+[2019.10.23-01.32.35:980][  0]LogMemory: Process Physical Memory: 97.39 MB used, 97.39 MB peak
+[2019.10.23-01.32.35:980][  0]LogMemory: Process Virtual Memory: 93.13 MB used, 93.13 MB peak
+[2019.10.23-01.32.35:980][  0]LogMemory: Physical Memory: 5315.23 MB used,  11010.86 MB free, 16326.10 MB total
+[2019.10.23-01.32.35:980][  0]LogMemory: Virtual Memory: 532.30 MB used,  134217192.00 MB free, 134217728.00 MB total
+[2019.10.23-01.32.36:248][  0]LogInit: Using OS detected language (en-US).
+[2019.10.23-01.32.36:248][  0]LogInit: Using OS detected locale (en-US).
+[2019.10.23-01.32.36:249][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.10.23-01.32.36:858][  0]LogInit: Setting process to per monitor DPI aware
+[2019.10.23-01.32.37:169][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.10.23-01.32.37:169][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.10.23-01.32.40:611][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.23-01.32.40:611][  0]LogD3D11RHI: D3D11 adapters:
+[2019.10.23-01.32.40:629][  0]LogD3D11RHI:    0. 'AMD Radeon HD 8570' (Feature Level 11_0)
+[2019.10.23-01.32.40:629][  0]LogD3D11RHI:       1005/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x1002
+[2019.10.23-01.32.40:638][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.10.23-01.32.40:638][  0]LogD3D11RHI:       0/0/8163 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.10.23-01.32.40:638][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.10.23-01.32.40:647][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.10.23-01.32.40:647][  0]LogD3D11RHI:     GPU DeviceId: 0x6611 (for the marketing name, search the web for "GPU Device Id")
+[2019.10.23-01.32.40:647][  0]LogWindows: EnumDisplayDevices:
+[2019.10.23-01.32.40:647][  0]LogWindows:    0. 'AMD Radeon HD 8570' (P:1 D:1)
+[2019.10.23-01.32.40:647][  0]LogWindows:    1. 'AMD Radeon HD 8570' (P:0 D:0)
+[2019.10.23-01.32.40:648][  0]LogWindows: DebugString: FoundDriverCount:2 
+[2019.10.23-01.32.40:648][  0]LogD3D11RHI:     Adapter Name: AMD Radeon HD 8570
+[2019.10.23-01.32.40:648][  0]LogD3D11RHI:   Driver Version: Crimson 16.6 (internal:21.19.144.32768, unified:21.19.144.32768)
+[2019.10.23-01.32.40:648][  0]LogD3D11RHI:      Driver Date: 10-25-2016
+[2019.10.23-01.32.40:648][  0]LogRHI: Texture pool is 703 MB (70% of 1005 MB)
+[2019.10.23-01.32.40:789][  0]LogD3D11RHI: Async texture creation enabled
+[2019.10.23-01.32.40:795][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.10.23-01.32.40:796][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.10.23-01.32.40:797][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.10.23-01.32.40:803][  0]LogD3D11RHI: GPU Timing Frequency: 27.000000 (Debug: 2 1)
+[2019.10.23-01.32.42:207][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.10.23-01.32.42:276][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.10.23-01.32.42:315][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.10.23-01.32.42:343][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.10.23-01.32.42:383][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.10.23-01.32.42:413][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.10.23-01.32.42:436][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.10.23-01.32.42:459][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.10.23-01.32.42:475][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.10.23-01.32.42:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.10.23-01.32.42:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.10.23-01.32.42:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.10.23-01.32.42:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.10.23-01.32.42:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.10.23-01.32.42:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.10.23-01.32.42:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.10.23-01.32.42:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.10.23-01.32.42:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.10.23-01.32.42:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.10.23-01.32.42:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.10.23-01.32.42:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.10.23-01.32.42:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.10.23-01.32.42:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.10.23-01.32.42:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.10.23-01.32.42:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.10.23-01.32.42:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.10.23-01.32.42:584][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.10.23-01.32.42:617][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.10.23-01.32.42:753][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.10.23-01.32.42:753][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.10.23-01.32.42:795][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.10.23-01.32.42:795][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.10.23-01.32.42:825][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.10.23-01.32.42:846][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.10.23-01.32.42:875][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.10.23-01.32.42:915][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.10.23-01.32.42:980][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.10.23-01.32.42:980][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.10.23-01.32.42:980][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.10.23-01.32.42:998][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.10.23-01.32.43:375][  0]LogShaderCompilers: Guid format shader working directory is -10 characters bigger than the processId version (../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Intermediate/Shaders/WorkingDirectory/5236/).
+[2019.10.23-01.32.43:375][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/W207542133/AppData/Local/Temp/UnrealShaderWorkingDir/E9C125344DDB2B99CB23D48EF1A36924/'.
+[2019.10.23-01.32.43:413][  0]LogXGEController: Cleaning working directory: C:/Users/W207542133/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.10.23-01.32.43:425][  0]LogShaderCompilers: Display: Using XGE Shader Compiler (Interception Interface).
+[2019.10.23-01.32.46:374][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.10.23-01.32.47:717][  0]LogDerivedDataCache: Loaded boot cache 1.34s 71MB C:/Users/W207542133/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.10.23-01.32.47:718][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/W207542133/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.10.23-01.32.47:718][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../Users/W207542133/Desktop/halloween/Rand_halloween/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.10.23-01.32.47:718][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.10.23-01.32.47:718][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../Users/W207542133/Desktop/halloween/Rand_halloween/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.23-01.32.47:718][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.10.23-01.32.47:730][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.10.23-01.32.47:730][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.10.23-01.32.47:730][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.10.23-01.32.47:743][  0]LogDerivedDataCache: Using Local data cache path C:/Users/W207542133/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.10.23-01.32.47:743][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.10.23-01.32.47:743][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.10.23-01.32.47:764][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.10.23-01.32.47:765][  0]LogSlate: Using FreeType 2.6.0
+[2019.10.23-01.32.47:807][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.10.23-01.32.48:135][  0]LogAssetRegistry: FAssetRegistry took 0.0359 seconds to start up
+[2019.10.23-01.32.48:546][  0]LogInit: Selected Device Profile: [Windows]
+[2019.10.23-01.32.48:753][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.10.23-01.32.48:753][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.10.23-01.32.48:753][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.10.23-01.32.48:753][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.10.23-01.32.48:753][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.10.23-01.32.48:763][  0]LogNetVersion: Rand_halloween 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 3059084179)
+[2019.10.23-01.32.49:337][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.153714 seconds
+[2019.10.23-01.32.49:343][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.10.23-01.32.49:343][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.10.23-01.32.49:343][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.10.23-01.33.03:467][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.10.23-01.33.03:485][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.10.23-01.33.03:957][  0]SourceControl: Source control is disabled
+[2019.10.23-01.33.03:957][  0]SourceControl: Source control is disabled
+[2019.10.23-01.33.04:000][  0]SourceControl: Source control is disabled
+[2019.10.23-01.33.04:005][  0]SourceControl: Source control is disabled
+[2019.10.23-01.33.04:744][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.10.23-01.33.05:175][  0]LogOcInput: OculusInput pre-init called
+[2019.10.23-01.33.17:776][  0]LogEngine: Initializing Engine...
+[2019.10.23-01.33.17:777][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.10.23-01.33.17:778][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.10.23-01.33.18:185][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.10.23-01.33.18:283][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.10.23-01.33.18:314][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.23-01.33.19:042][  0]LogInit: FAudioDevice initialized.
+[2019.10.23-01.33.19:042][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.10.23-01.33.19:265][  0]LogDerivedDataCache: Saved boot cache 0.22s 71MB C:/Users/W207542133/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.10.23-01.33.19:278][  0]LogInit: Texture streaming: Enabled
+[2019.10.23-01.33.19:681][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.10.23-01.33.19:746][  0]LogInit: Transaction tracking system initialized
+[2019.10.23-01.33.19:877][  0]BlueprintLog: New page: Editor Load
+[2019.10.23-01.33.20:374][  0]LocalizationService: Localization service is disabled
+[2019.10.23-01.33.21:216][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.10.23-01.33.21:216][  0]LogCook: Display: Mobile HDR setting 1
+[2019.10.23-01.33.21:786][  0]LogFileCache: Scanning file cache for directory 'C:/Users/W207542133/Desktop/halloween/Rand_halloween/Content/' took 0.04s
+[2019.10.23-01.33.23:252][  0]SourceControl: Source control is disabled
+[2019.10.23-01.33.23:372][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.10.23-01.33.23:375][  0]LogSlate: Took 0.001674 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.10.23-01.33.32:166][  0]LogSlate: Window 'Restore Packages' being destroyed
+[2019.10.23-01.33.32:166][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.10.23-01.33.32:168][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.10.23-01.33.32:173][  0]Cmd: MAP LOAD FILE="../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/Rand_halloween/Rand_tower.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.10.23-01.33.32:174][  0]LightingResults: New page: Lighting Build
+[2019.10.23-01.33.32:183][  0]MapCheck: New page: Map Check
+[2019.10.23-01.33.32:183][  0]LightingResults: New page: Lighting Build
+[2019.10.23-01.33.32:214][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.18ms
+[2019.10.23-01.33.33:812][  0]LoadErrors: Warning: Linear color curves now accurately handle RGB values > 1. If you were relying on HSV clamping, please update Curve_GoodSky_AllOverlayColor
+[2019.10.23-01.33.33:812][  0]LoadErrors: Warning: Linear color curves now accurately handle RGB values > 1. If you were relying on HSV clamping, please update Curve_GoodSky_horizon_Color
+[2019.10.23-01.33.33:813][  0]LoadErrors: Warning: Linear color curves now accurately handle RGB values > 1. If you were relying on HSV clamping, please update Curve_GoodSky_DomeColor
+[2019.10.23-01.33.33:813][  0]LoadErrors: Warning: Linear color curves now accurately handle RGB values > 1. If you were relying on HSV clamping, please update Curve_GoodSky_BaseCloudColor
+[2019.10.23-01.33.33:834][  0]LogAIModule: Creating AISystem for world Rand_tower
+[2019.10.23-01.33.33:882][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.10.23-01.33.34:002][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.40ms
+[2019.10.23-01.33.34:003][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.10.23-01.33.34:003][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.203ms to complete.
+[2019.10.23-01.33.34:003][  0]LogFileHelpers: Loading map 'Rand_tower' took 1.830
+[2019.10.23-01.33.34:050][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.33.34:058][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.33.34:065][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.33.34:073][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.33.34:083][  0]LogCollectionManager: Loaded 0 collections in 0.002908 seconds
+[2019.10.23-01.33.34:141][  0]LogFileCache: Scanning file cache for directory 'C:/Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Collections/' took 0.01s
+[2019.10.23-01.33.34:141][  0]LogFileCache: Scanning file cache for directory 'C:/Users/W207542133/Desktop/halloween/Rand_halloween/Content/Developers/W207542133/Collections/' took 0.01s
+[2019.10.23-01.33.34:141][  0]LogFileCache: Scanning file cache for directory 'C:/Users/W207542133/Desktop/halloween/Rand_halloween/Content/Collections/' took 0.01s
+[2019.10.23-01.33.34:141][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.10.23-01.33.34:155][  0]LogContentBrowser: Native class hierarchy populated in 0.0137 seconds. Added 2732 classes and 659 folders.
+[2019.10.23-01.33.34:178][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.10.23-01.33.34:182][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:184][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:187][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:190][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:192][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:194][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:197][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:199][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:202][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:204][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:206][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:208][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:238][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:245][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:251][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:256][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:262][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:268][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:271][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:274][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:278][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:281][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:284][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:287][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:290][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:294][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.10.23-01.33.34:463][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.10.23-01.33.34:480][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2019.10.23-01.33.34:556][  0]LogSlate: Took 0.001568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.10.23-01.33.34:561][  0]LogSlate: Took 0.001450 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.10.23-01.33.34:606][  0]LogRenderer: Reallocating scene render targets to support 1208x576 Format 10 NumSamples 1 (Frame:1).
+[2019.10.23-01.33.34:758][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.10.23-01.33.34:758][  0]LogLoad: (Engine Initialization) Total time: 67.77 seconds
+[2019.10.23-01.33.34:758][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.10.23-01.33.34:808][  0]LogAssetRegistry: Asset discovery search completed in 46.6946 seconds
+[2019.10.23-01.33.34:811][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.10.23-01.33.34:811][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2019.10.23-01.33.34:813][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.10.23-01.33.34:828][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.23-01.33.34:932][  0]LogSlate: Took 0.078080 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.23-01.33.38:474][101]LogSlate: Window 'Message Log' being destroyed
+[2019.10.23-01.33.38:513][101]LogSlate: Window 'Message Log' being destroyed
+[2019.10.23-01.33.51:261][487]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2019.10.23-01.33.51:467][487]LogSlate: Took 0.055160 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.10.23-01.33.53:285][539]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.23-01.33.56:010][777]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.10.23-01.33.57:568][813]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.33.57:654][816]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.23-01.33.57:662][816]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.33.57:662][816]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.23-01.33.57:663][816]PIE: New page: PIE session: Rand_tower (Oct 22, 2019, 3:33:57 PM)
+[2019.10.23-01.33.57:674][816]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
+[2019.10.23-01.33.57:704][816]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029116s)
+[2019.10.23-01.33.57:704][816]LogAIModule: Creating AISystem for world Rand_tower
+[2019.10.23-01.33.57:704][816]LogPlayLevel: PIE: World Init took: (0.000504s)
+[2019.10.23-01.33.57:704][816]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.029984s)
+[2019.10.23-01.33.57:728][816]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2019.10.23-01.33.57:731][816]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.23-01.33.57:756][816]LogInit: FAudioDevice initialized.
+[2019.10.23-01.33.58:068][816]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.23-01.33.58:070][816]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.22-20.33.58
+[2019.10.23-01.33.58:070][816]LogWorld: Bringing up level for play took: 0.001572
+[2019.10.23-01.33.58:090][816]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.10.23-01.33.58:093][816]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower 1.04
+[2019.10.23-01.33.58:093][816]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.34.04:015][ 16]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.34.04:015][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.34.04:076][ 16]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.23-01.34.04:076][ 16]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.34.04:103][ 16]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.34.04:108][ 16]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2019.10.23-01.34.04:150][ 17]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.10.23-01.34.07:093][104]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.34.07:193][107]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.23-01.34.07:202][107]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.34.07:202][107]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.23-01.34.07:202][107]PIE: New page: PIE session: Rand_tower (Oct 22, 2019, 3:34:07 PM)
+[2019.10.23-01.34.07:203][107]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
+[2019.10.23-01.34.07:237][107]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033780s)
+[2019.10.23-01.34.07:237][107]LogAIModule: Creating AISystem for world Rand_tower
+[2019.10.23-01.34.07:238][107]LogPlayLevel: PIE: World Init took: (0.000664s)
+[2019.10.23-01.34.07:238][107]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.035017s)
+[2019.10.23-01.34.07:260][107]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2019.10.23-01.34.07:261][107]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.23-01.34.07:284][107]LogInit: FAudioDevice initialized.
+[2019.10.23-01.34.07:308][107]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.23-01.34.07:310][107]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.22-20.34.07
+[2019.10.23-01.34.07:310][107]LogWorld: Bringing up level for play took: 0.001328
+[2019.10.23-01.34.07:324][107]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower 0.27
+[2019.10.23-01.34.07:324][107]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.34.19:766][594]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.34.19:766][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.34.19:824][594]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.23-01.34.19:825][594]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.34.19:850][594]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.34.19:852][594]LogUObjectHash: Compacting FUObjectHashTables data took   1.09ms
+[2019.10.23-01.34.19:893][595]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.10.23-01.34.28:544][856]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.34.31:099][929]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.10.23-01.34.32:691][980]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.35.13:798][306]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.37.02:029][322]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.37.10:801][591]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.10.23-01.37.14:496][682]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.37.19:788][842]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.37.19:884][845]LogGeometryMode: Warning: Unable to find CylinderBrush2 Brush(s) in new BSP
+[2019.10.23-01.37.19:884][845]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2019.10.23-01.37.27:517][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.37.27:615][ 80]LogGeometryMode: Warning: Unable to find CylinderBrush2 Brush(s) in new BSP
+[2019.10.23-01.37.27:615][ 80]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2019.10.23-01.37.33:232][275]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.37.35:456][353]LogActorFactory: Actor Factory created Cube
+[2019.10.23-01.37.35:457][353]LogLinker: Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2019.10.23-01.37.35:457][353]LogLinker: Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2019.10.23-01.37.35:457][353]LogUObjectGlobals: Warning: Failed to find object 'Material /Engine/BasicShapes/BasicShapeMaterial.BasicShapeMaterial'
+[2019.10.23-01.37.36:639][396]LogActorFactory: Actor Factory created Cube
+[2019.10.23-01.37.36:639][396]LogLinker: Warning: Error opening file '../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset'.
+[2019.10.23-01.37.47:757][771]Cmd: DELETE
+[2019.10.23-01.37.47:757][771]Cmd: ACTOR DELETE
+[2019.10.23-01.37.47:762][771]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.10.23-01.37.47:785][771]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2019.10.23-01.37.47:786][771]LogEditorActor: Deleted 1 Actors (0.028 secs)
+[2019.10.23-01.37.49:158][822]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.37.52:281][936]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.10.23-01.37.56:509][ 85]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.38.18:023][857]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.23-01.38.31:969][340]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.38.53:950][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.38.58:714][263]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.38.58:743][264]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.23-01.38.58:753][264]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.38.58:753][264]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.23-01.38.58:753][264]PIE: New page: PIE session: Rand_tower (Oct 22, 2019, 3:38:58 PM)
+[2019.10.23-01.38.58:754][264]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
+[2019.10.23-01.38.58:787][264]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033436s)
+[2019.10.23-01.38.58:787][264]LogAIModule: Creating AISystem for world Rand_tower
+[2019.10.23-01.38.58:788][264]LogPlayLevel: PIE: World Init took: (0.000573s)
+[2019.10.23-01.38.58:788][264]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.034137s)
+[2019.10.23-01.38.58:812][264]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2019.10.23-01.38.58:814][264]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.23-01.38.58:838][264]LogInit: FAudioDevice initialized.
+[2019.10.23-01.38.58:868][264]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.23-01.38.58:871][264]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.22-20.38.58
+[2019.10.23-01.38.58:871][264]LogWorld: Bringing up level for play took: 0.001602
+[2019.10.23-01.38.58:887][264]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower -0.174
+[2019.10.23-01.38.58:887][264]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.39.21:981][103]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.39.21:981][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.39.22:045][103]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.23-01.39.22:046][103]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.23-01.39.22:080][103]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.23-01.39.22:084][103]LogUObjectHash: Compacting FUObjectHashTables data took   1.30ms
+[2019.10.23-01.39.22:126][104]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.10.23-01.39.28:337][311]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.39.29:891][367]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.10.23-01.39.30:735][398]Cmd: DELETE
+[2019.10.23-01.39.30:735][398]Cmd: ACTOR DELETE
+[2019.10.23-01.39.30:741][398]LogEditorActor: Deleted Actor: Brush
+[2019.10.23-01.39.30:766][398]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2019.10.23-01.39.30:771][398]LogEditorActor: Deleted 1 Actors (0.035 secs)
+[2019.10.23-01.39.32:005][444]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.39.36:336][609]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.10.23-01.39.45:164][951]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.39.55:267][332]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.23-01.40.08:220][807]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.40.33:217][778]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.40.46:587][317]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.41.06:741][106]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.41.28:528][962]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.41.43:581][527]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.41.54:466][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.42.06:652][402]LogEditorViewport: Clicking on Actor (LMB): Brush (Curved Stair Brush3)
+[2019.10.23-01.42.13:441][651]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.42.22:410][981]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.42.42:756][708]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2019.10.23-01.42.55:977][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.23-01.42.56:090][109]LogSlate: Took 0.001621 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.10.23-01.42.56:161][109]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2019.10.23-01.42.56:545][109]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower4C84F6DA4A07B8CF9813AFA834F2F697.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/Rand_halloween/Rand_tower.umap'
