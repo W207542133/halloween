@@ -604,3 +604,136 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.10.24-23.37.30:474][763]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 64X64)
 [2019.10.24-23.37.30:475][763]LogTexture: Display: Building textures: Texture2D_15 (BGRA8, 64X64)
 [2019.10.24-23.37.30:905][763]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower63BB124743B835D6698DA5BF38C1A148.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/Rand_halloween/Rand_tower.umap'
+[2019.10.24-23.43.50:620][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue'
+[2019.10.24-23.43.50:621][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue' while loading NULL.
+[2019.10.24-23.43.50:621][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue'
+[2019.10.24-23.43.50:621][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue' while loading NULL.
+[2019.10.24-23.43.50:622][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue'
+[2019.10.24-23.43.50:622][696]LoadErrors: Failed to load /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue.M_Plains_Angel_Statue Referenced by SM_Plains_Angel_Statue_01
+[2019.10.24-23.43.50:622][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue' while loading NULL.
+[2019.10.24-23.43.50:624][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue'
+[2019.10.24-23.43.50:624][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue' while loading NULL.
+[2019.10.24-23.43.50:624][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue'
+[2019.10.24-23.43.50:625][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue' while loading NULL.
+[2019.10.24-23.43.50:625][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue'
+[2019.10.24-23.43.50:625][696]LoadErrors: Failed to load /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue.M_Plains_Angel_Statue Referenced by SM_Plains_Angel_Statue_01_nobase
+[2019.10.24-23.43.50:625][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue' while loading NULL.
+[2019.10.24-23.43.50:628][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue'
+[2019.10.24-23.43.50:628][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue' while loading NULL.
+[2019.10.24-23.43.50:628][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue'
+[2019.10.24-23.43.50:628][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue' while loading NULL.
+[2019.10.24-23.43.50:629][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue'
+[2019.10.24-23.43.50:629][696]LoadErrors: Failed to load /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue.M_Plains_Angel_Statue Referenced by SM_Plains_Angel_Statue_01_nobase_torch
+[2019.10.24-23.43.50:629][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue' while loading NULL.
+[2019.10.24-23.43.50:631][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Angel_Statue_D'
+[2019.10.24-23.43.50:631][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Angel_Statue_D' while loading NULL.
+[2019.10.24-23.43.50:631][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Angel_Statue_N'
+[2019.10.24-23.43.50:632][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Angel_Statue_N' while loading NULL.
+[2019.10.24-23.43.50:632][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Angel_Statue_D'
+[2019.10.24-23.43.50:632][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Angel_Statue_D' while loading NULL.
+[2019.10.24-23.43.50:632][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Angel_Statue_N'
+[2019.10.24-23.43.50:632][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Angel_Statue_N' while loading NULL.
+[2019.10.24-23.43.50:633][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Angel_Statue_D'
+[2019.10.24-23.43.50:633][696]LoadErrors: Failed to load /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Angel_Statue_D.T_Plains_Angel_Statue_D Referenced by MaterialExpressionTextureSample_31
+[2019.10.24-23.43.50:633][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Angel_Statue_D' while loading NULL.
+[2019.10.24-23.43.50:633][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Angel_Statue_N'
+[2019.10.24-23.43.50:633][696]LoadErrors: Failed to load /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Angel_Statue_N.T_Plains_Angel_Statue_N Referenced by MaterialExpressionTextureSample_32
+[2019.10.24-23.43.50:633][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Angel_Statue_N' while loading NULL.
+[2019.10.24-23.43.50:636][696]LogMaterial: Display: Missing cached shader map for material M_Plains_Angel_Statue, compiling. 
+[2019.10.24-23.43.50:681][696]LogMaterial: Warning: C:\Users\W207542133\Desktop\halloween\Rand_halloween\Content\statue\InfinityBladeGrassLands\Environments\Plains\Env_Plains_Statues\Materials\M_Plains_Angel_Statue.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.10.24-23.43.50:681][696]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.10.24-23.43.50:685][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Castle_Demon'
+[2019.10.24-23.43.50:685][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Castle_Demon' while loading NULL.
+[2019.10.24-23.43.50:685][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Castle_Demon'
+[2019.10.24-23.43.50:685][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Castle_Demon' while loading NULL.
+[2019.10.24-23.43.50:686][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Castle_Demon'
+[2019.10.24-23.43.50:686][696]LoadErrors: Failed to load /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Castle_Demon.M_Plains_Castle_Demon Referenced by SM_Plains_Castle_DemonDoor_01
+[2019.10.24-23.43.50:686][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Castle_Demon' while loading NULL.
+[2019.10.24-23.43.50:688][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Ruins_DemonDoor_D'
+[2019.10.24-23.43.50:688][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Ruins_DemonDoor_D' while loading NULL.
+[2019.10.24-23.43.50:688][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Ruins_DemonDoor_N'
+[2019.10.24-23.43.50:689][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Ruins_DemonDoor_N' while loading NULL.
+[2019.10.24-23.43.50:689][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Ruins_DemonDoor_D'
+[2019.10.24-23.43.50:689][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Ruins_DemonDoor_D' while loading NULL.
+[2019.10.24-23.43.50:689][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Ruins_DemonDoor_N'
+[2019.10.24-23.43.50:689][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Ruins_DemonDoor_N' while loading NULL.
+[2019.10.24-23.43.50:690][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Ruins_DemonDoor_D'
+[2019.10.24-23.43.50:690][696]LoadErrors: Failed to load /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Ruins_DemonDoor_D.T_Plains_Ruins_DemonDoor_D Referenced by MaterialExpressionTextureSample_33
+[2019.10.24-23.43.50:690][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Ruins_DemonDoor_D' while loading NULL.
+[2019.10.24-23.43.50:690][696]LogLinker: Warning: Can't find file '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Ruins_DemonDoor_N'
+[2019.10.24-23.43.50:690][696]LoadErrors: Failed to load /Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Ruins_DemonDoor_N.T_Plains_Ruins_DemonDoor_N Referenced by MaterialExpressionTextureSample_34
+[2019.10.24-23.43.50:690][696]LogLinker: Warning: Can't find file for asset '/Game/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Ruins_DemonDoor_N' while loading NULL.
+[2019.10.24-23.43.50:693][696]LogMaterial: Display: Missing cached shader map for material M_Plains_Castle_Demon, compiling. 
+[2019.10.24-23.43.50:693][696]LogMaterial: Warning: C:\Users\W207542133\Desktop\halloween\Rand_halloween\Content\statue\InfinityBladeGrassLands\Environments\Plains\InfinityBladeGrassLands\Environments\Plains\Env_Plains_Statues\Materials\M_Plains_Castle_Demon.uasset: Failed to compile Material for platform PCD3D_SM5, Default Material will be used in game.
+[2019.10.24-23.43.50:693][696]LogMaterial: 	(Node TextureSample) Texture Sample> Missing input texture
+[2019.10.24-23.43.51:116][696]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/SM_Plains_Angel_Statue_013482376C4D55658D188A64B6BC8EF3E5.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Environments/Plains/Env_Plains_Statues/StaticMesh/SM_Plains_Angel_Statue_01.uasset'
+[2019.10.24-23.43.51:191][696]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/SM_Plains_Angel_Statue_01_nobaseC0933D5E403007FBBFE92E86D5B458E7.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Environments/Plains/Env_Plains_Statues/StaticMesh/SM_Plains_Angel_Statue_01_nobase.uasset'
+[2019.10.24-23.43.51:265][696]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/SM_Plains_Angel_Statue_01_nobase409C58824F357EC3D0BC2F885AB587A8.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Environments/Plains/Env_Plains_Statues/StaticMesh/SM_Plains_Angel_Statue_01_nobase_torch.uasset'
+[2019.10.24-23.43.51:355][696]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/M_Plains_Angel_StatueB58C7C9D422B27AEDDDF6C9E9633E9C7.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Angel_Statue.uasset'
+[2019.10.24-23.43.51:504][696]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/T_Plains_Angel_Statue_D5810FA864989166F21A909A86DA32943.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Angel_Statue_D.uasset'
+[2019.10.24-23.43.51:696][696]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/T_Plains_Angel_Statue_N83480C054C5BD08C18264E92E8E6F9FC.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Angel_Statue_N.uasset'
+[2019.10.24-23.43.51:801][696]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/SM_Plains_Castle_DemonDoor_0187395227421D51123AA5DF935EC576E4.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Environments/Plains/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/StaticMesh/SM_Plains_Castle_DemonDoor_01.uasset'
+[2019.10.24-23.43.51:896][696]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/M_Plains_Castle_Demon32D0566E4347482655F307AFD96DDEE6.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Environments/Plains/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Materials/M_Plains_Castle_Demon.uasset'
+[2019.10.24-23.43.52:087][696]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/T_Plains_Ruins_DemonDoor_D08B7D5534470802EC306EAA7D8C07CA5.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Environments/Plains/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Ruins_DemonDoor_D.uasset'
+[2019.10.24-23.43.52:329][696]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/T_Plains_Ruins_DemonDoor_NE77711B84B67F70B0E385183B27D8BDC.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Environments/Plains/InfinityBladeGrassLands/Environments/Plains/Env_Plains_Statues/Textures/T_Plains_Ruins_DemonDoor_N.uasset'
+[2019.10.24-23.43.52:935][696]LogUObjectHash: Compacting FUObjectHashTables data took   2.09ms
+[2019.10.24-23.43.52:957][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.57ms
+[2019.10.24-23.43.52:979][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.59ms
+[2019.10.24-23.43.53:003][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.10.24-23.43.53:026][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2019.10.24-23.43.53:051][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2019.10.24-23.43.53:073][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.10.24-23.43.53:093][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2019.10.24-23.43.53:113][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2019.10.24-23.43.53:134][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.63ms
+[2019.10.24-23.43.53:158][696]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2019.10.24-23.43.53:178][696]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2019.10.24-23.44.10:628][911]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/T_Plains_Angel_Statue_N8BFC36E443C29E2CBF14ADB441BB65A5.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Env_Plains_Statues/Textures/T_Plains_Angel_Statue_N.uasset'
+[2019.10.24-23.44.10:803][911]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/T_Plains_Angel_Statue_D4351E0A9405D41BAC5186997289BA16F.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Env_Plains_Statues/Textures/T_Plains_Angel_Statue_D.uasset'
+[2019.10.24-23.44.10:892][911]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/M_Plains_Angel_StatueEC045CC64BA0D602CF598494883CE9F7.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Env_Plains_Statues/Materials/M_Plains_Angel_Statue.uasset'
+[2019.10.24-23.44.10:962][911]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/SM_Plains_Angel_Statue_01_nobase67E5F55F453007317AFBBABA41FDD209.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Env_Plains_Statues/StaticMesh/SM_Plains_Angel_Statue_01_nobase_torch.uasset'
+[2019.10.24-23.44.11:032][911]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/SM_Plains_Angel_Statue_01_nobaseE77CF362441E425C3D696CA2C1FFB793.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Env_Plains_Statues/StaticMesh/SM_Plains_Angel_Statue_01_nobase.uasset'
+[2019.10.24-23.44.11:107][911]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/SM_Plains_Angel_Statue_0145DBBDD141C8BAF015EB8A80ABAAE6F9.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Env_Plains_Statues/StaticMesh/SM_Plains_Angel_Statue_01.uasset'
+[2019.10.24-23.44.11:448][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2019.10.24-23.44.11:472][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.58ms
+[2019.10.24-23.44.11:497][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.10.24-23.44.11:522][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.83ms
+[2019.10.24-23.44.11:546][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.10.24-23.44.11:574][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.65ms
+[2019.10.24-23.44.11:598][911]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2019.10.24-23.44.11:620][911]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.10.24-23.44.26:325][623]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/T_Plains_Ruins_DemonDoor_NCBA9011948529638215F8E99C373E8DA.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Env_Plains_Statues/Textures/T_Plains_Ruins_DemonDoor_N.uasset'
+[2019.10.24-23.44.26:502][623]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/T_Plains_Ruins_DemonDoor_D86FD749E42111E2D73C02EB564DAC1C2.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Env_Plains_Statues/Textures/T_Plains_Ruins_DemonDoor_D.uasset'
+[2019.10.24-23.44.26:639][623]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/M_Plains_Castle_Demon70713264471B34DD67B800A9B39C22B5.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Env_Plains_Statues/Materials/M_Plains_Castle_Demon.uasset'
+[2019.10.24-23.44.26:707][623]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/SM_Plains_Castle_DemonDoor_0150A4228A47298720EBAB13AA4068B29F.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/statue/Env_Plains_Statues/StaticMesh/SM_Plains_Castle_DemonDoor_01.uasset'
+[2019.10.24-23.44.26:970][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.77ms
+[2019.10.24-23.44.26:990][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2019.10.24-23.44.27:012][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.61ms
+[2019.10.24-23.44.27:033][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.62ms
+[2019.10.24-23.44.27:058][623]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2019.10.24-23.44.27:079][623]LogUObjectHash: Compacting FUObjectHashTables data took   0.60ms
+[2019.10.24-23.47.18:180][498]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.47.28:486][784]LogSlate: Window 'Color Picker' being destroyed
+[2019.10.24-23.47.30:667][848]LogSlate: Took 0.026165 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.10.24-23.47.38:238][ 65]LogSlate: Took 0.066037 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.10.24-23.47.40:024][146]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2019.10.24-23.47.57:241][957]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2019.10.24-23.47.58:091][995]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.48.13:291][515]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.48.22:930][840]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.10.24-23.48.29:002][  2]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.48.33:740][162]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.10.24-23.48.46:052][527]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.48.50:266][664]Cmd: BRUSH ADD SELECTNEWBRUSH
+[2019.10.24-23.48.53:170][770]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.49.36:717][423]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.49.46:186][783]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.24-23.49.50:534][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.50.27:137][339]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush6)
+[2019.10.24-23.50.27:872][363]LogEditorViewport: Clicking on Actor (LMB): Brush (Cylinder Brush6)
+[2019.10.24-23.50.30:681][463]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.50.43:103][914]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.50.48:441][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.51.03:600][620]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.51.13:918][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2019.10.24-23.51.14:378][212]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower33CCFA3C4C68B1EF9648EF81A4313F77.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/Rand_halloween/Rand_tower.umap'
