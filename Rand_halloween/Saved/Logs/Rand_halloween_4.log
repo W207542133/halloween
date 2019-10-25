@@ -737,3 +737,256 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.10.24-23.51.03:600][620]LogSlate: FSceneViewport::OnFocusLost() reason 0
 [2019.10.24-23.51.13:918][212]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
 [2019.10.24-23.51.14:378][212]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower33CCFA3C4C68B1EF9648EF81A4313F77.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/Rand_halloween/Rand_tower.umap'
+[2019.10.24-23.51.47:380][344]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.10.24-23.52.11:108][952]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.52.21:859][201]LogActorFactory: Actor Factory created SM_Big_Rock_02
+[2019.10.24-23.52.23:248][233]LogActorFactory: Actor Factory created SM_Big_Rock_02
+[2019.10.24-23.52.24:921][268]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.52.40:653][604]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.52.41:138][605]LogActorFactory: Actor Factory created SM_Big_Rock_03
+[2019.10.24-23.52.43:889][682]LogActorFactory: Actor Factory created SM_Big_Rock_03
+[2019.10.24-23.52.46:788][738]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.52.47:148][739]LogActorFactory: Actor Factory created SM_Middle_Rock_01
+[2019.10.24-23.52.48:562][778]LogActorFactory: Actor Factory created SM_Middle_Rock_01
+[2019.10.24-23.52.49:887][807]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.52.57:049][971]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.10.24-23.53.00:975][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.53.01:646][ 28]LogStaticMesh: Building static mesh SM_Small_Rock_02...
+[2019.10.24-23.53.01:792][ 28]LogStaticMesh: Built static mesh [0.15s] /Game/Environment_Set/Environment/Rocks/Models/SM_Small_Rock_02.SM_Small_Rock_02
+[2019.10.24-23.53.01:832][ 28]LogActorFactory: Actor Factory created SM_Small_Rock_02
+[2019.10.24-23.53.02:937][ 54]LogActorFactory: Actor Factory created SM_Small_Rock_02
+[2019.10.24-23.53.04:632][ 89]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.53.07:170][129]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.10.24-23.53.24:514][545]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.53.25:224][547]LogActorFactory: Actor Factory created SM_Big_Rock_01
+[2019.10.24-23.53.26:344][572]LogActorFactory: Actor Factory created SM_Big_Rock_01
+[2019.10.24-23.53.27:979][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.53.31:123][659]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.10.24-23.53.34:377][736]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.53.34:955][751]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.10.24-23.53.35:523][763]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Big_Rock_01)
+[2019.10.24-23.53.44:956][ 27]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.53.45:320][ 30]LogStaticMesh: Building static mesh SM_Small_Rock_01...
+[2019.10.24-23.53.45:357][ 30]LogStaticMesh: Built static mesh [0.04s] /Game/Environment_Set/Environment/Rocks/Models/SM_Small_Rock_01.SM_Small_Rock_01
+[2019.10.24-23.53.45:406][ 30]LogActorFactory: Actor Factory created SM_Small_Rock_01
+[2019.10.24-23.53.46:549][ 61]LogActorFactory: Actor Factory created SM_Small_Rock_01
+[2019.10.24-23.53.48:061][ 96]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.54.18:967][968]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.54.19:229][969]LogActorFactory: Actor Factory created SM_Middle_Rock_03
+[2019.10.24-23.54.20:491][  5]LogActorFactory: Actor Factory created SM_Middle_Rock_03
+[2019.10.24-23.54.21:901][ 30]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.54.38:858][480]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.54.39:429][481]LogStaticMesh: Building static mesh SM_road_border_02...
+[2019.10.24-23.54.39:457][481]LogStaticMesh: Built static mesh [0.03s] /Game/Environment_Set/Environment/Rocks/Models/SM_road_border_02.SM_road_border_02
+[2019.10.24-23.54.39:480][481]LogActorFactory: Actor Factory created SM_road_border_02
+[2019.10.24-23.54.44:808][639]LogActorFactory: Actor Factory created SM_road_border_02
+[2019.10.24-23.54.46:076][676]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.54.54:804][940]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.54.59:203][ 80]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.55.07:264][339]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.55.09:426][405]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2019.10.24-23.55.28:672][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.55.35:077][987]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.57.17:782][489]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.57.17:891][491]LogUObjectHash: Compacting FUObjectHashTables data took   2.69ms
+[2019.10.24-23.57.18:108][491]LogTexture: Display: Building textures: Texture2D_28 (BGRA8, 64X64)
+[2019.10.24-23.57.18:135][491]LogTexture: Display: Building textures: Texture2D_23 (BGRA8, 64X64)
+[2019.10.24-23.57.18:136][491]LogTexture: Display: Building textures: Texture2D_30 (BGRA8, 64X64)
+[2019.10.24-23.57.18:152][491]LogTexture: Display: Building textures: Texture2D_29 (BGRA8, 64X64)
+[2019.10.24-23.57.18:178][491]LogTexture: Display: Building textures: Texture2D_4 (BGRA8, 64X64)
+[2019.10.24-23.57.18:530][491]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_towerDA1D66BD4BBAF559D569B08082438FE7.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/Rand_halloween/Rand_tower.umap'
+[2019.10.24-23.57.19:237][505]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.57.22:780][611]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_road_border_02)
+[2019.10.24-23.57.37:469][ 22]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.57.42:903][180]Cmd: DELETE
+[2019.10.24-23.57.42:903][180]Cmd: ACTOR DELETE
+[2019.10.24-23.57.42:947][180]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.10.24-23.57.42:971][180]LogUObjectHash: Compacting FUObjectHashTables data took   2.03ms
+[2019.10.24-23.57.42:971][180]LogEditorActor: Deleted 1 Actors (0.067 secs)
+[2019.10.24-23.57.43:983][203]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.57.44:348][205]LogActorFactory: Actor Factory created SM_road_border_01
+[2019.10.24-23.57.47:939][309]LogActorFactory: Actor Factory created SM_road_border_01
+[2019.10.24-23.57.58:077][638]Cmd: DELETE
+[2019.10.24-23.57.58:077][638]Cmd: ACTOR DELETE
+[2019.10.24-23.57.58:087][638]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.10.24-23.57.58:110][638]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2019.10.24-23.57.58:111][638]LogEditorActor: Deleted 1 Actors (0.033 secs)
+[2019.10.24-23.57.59:166][660]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.57.59:406][661]LogStaticMesh: Building static mesh SM_road_border_03...
+[2019.10.24-23.57.59:443][661]LogStaticMesh: Built static mesh [0.04s] /Game/Environment_Set/Environment/Rocks/Models/SM_road_border_03.SM_road_border_03
+[2019.10.24-23.57.59:460][661]LogActorFactory: Actor Factory created SM_road_border_03
+[2019.10.24-23.58.01:212][714]LogActorFactory: Actor Factory created SM_road_border_03
+[2019.10.24-23.58.06:655][887]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.58.10:547][  6]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.58.14:299][122]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.58.17:850][235]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.58.20:965][333]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.58.24:253][439]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.58.35:123][774]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.59.02:471][606]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.59.06:481][726]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.59.10:934][859]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.59.21:867][197]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.59.25:315][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.59.40:949][738]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.59.47:436][926]Cmd: TRANSACTION UNDO
+[2019.10.24-23.59.47:436][926]LogEditorTransaction: Undo Rotate Actors
+[2019.10.24-23.59.47:896][964]Cmd: TRANSACTION UNDO
+[2019.10.24-23.59.47:896][964]LogEditorTransaction: Undo Rotate Actors
+[2019.10.24-23.59.55:554][258]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.24-23.59.58:992][369]Cmd: ACTOR SELECT ALL
+[2019.10.25-00.00.02:757][467]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.00.03:890][492]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_road_border_5)
+[2019.10.25-00.00.24:693][107]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.00.35:619][427]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_road_border_4)
+[2019.10.25-00.00.37:195][469]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.00.39:978][548]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.00.48:851][815]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_road_border_5)
+[2019.10.25-00.00.51:308][880]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.01.07:748][326]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.01.07:980][330]LogActorFactory: Actor Factory created SM_road_border_03
+[2019.10.25-00.01.09:631][380]LogActorFactory: Actor Factory created SM_road_border_03
+[2019.10.25-00.01.10:975][421]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.01.15:056][547]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.01.51:865][655]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_road_border_6)
+[2019.10.25-00.01.58:680][853]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_road_border_7)
+[2019.10.25-00.02.00:254][898]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.02.03:347][990]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.02.29:379][801]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.02.33:206][931]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.02.59:125][816]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.03.02:392][926]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.03.06:897][ 77]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.03.10:192][188]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.03.14:759][341]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.03.20:088][565]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.03.49:057][550]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.03.56:709][797]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.04.01:234][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.04.04:343][ 42]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.05.11:054][176]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_road_border_03)
+[2019.10.25-00.05.20:406][452]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.05.24:438][568]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.05.34:363][870]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.05.38:484][  7]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.06.54:988][549]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.06.58:239][657]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.07.18:429][304]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.07.21:966][420]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.07.30:036][665]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.08.06:316][367]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.25-00.08.06:446][367]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2019.10.25-00.08.06:924][367]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower_Auto15DBE58014EBA00D7E6930CA001907BE3.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Autosaves/Game/Rand_halloween/Rand_tower_Auto1.umap'
+[2019.10.25-00.08.06:942][367]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Rand_halloween/Rand_tower' took 0.521
+[2019.10.25-00.08.06:942][367]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.521
+[2019.10.25-00.09.03:580][280]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.09.03:664][284]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.25-00.09.03:672][284]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.09.03:672][284]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.25-00.09.03:725][284]PIE: New page: PIE session: Rand_tower (Oct 24, 2019, 2:09:03 PM)
+[2019.10.25-00.09.03:738][284]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
+[2019.10.25-00.09.03:792][284]LogPlayLevel: PIE: StaticDuplicateObject took: (0.053509s)
+[2019.10.25-00.09.03:793][284]LogAIModule: Creating AISystem for world Rand_tower
+[2019.10.25-00.09.03:793][284]LogPlayLevel: PIE: World Init took: (0.000659s)
+[2019.10.25-00.09.03:793][284]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.054482s)
+[2019.10.25-00.09.03:816][284]LogUObjectHash: Compacting FUObjectHashTables data took   1.89ms
+[2019.10.25-00.09.03:819][284]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.25-00.09.03:845][284]LogInit: FAudioDevice initialized.
+[2019.10.25-00.09.06:585][284]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.25-00.09.06:607][284]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.24-19.09.06
+[2019.10.25-00.09.06:608][284]LogWorld: Bringing up level for play took: 0.007982
+[2019.10.25-00.09.06:829][284]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0017 seconds. Added 20 classes and 0 folders.
+[2019.10.25-00.09.06:873][284]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower 3.351
+[2019.10.25-00.09.06:874][284]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.09.19:903][733]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.09.19:903][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.25-00.09.19:961][733]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.25-00.09.19:961][733]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.09.19:990][733]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.25-00.09.19:995][733]LogUObjectHash: Compacting FUObjectHashTables data took   2.22ms
+[2019.10.25-00.09.20:036][734]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.10.25-00.09.26:424][939]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_road_border_12)
+[2019.10.25-00.09.30:329][ 61]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.09.30:391][ 63]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.25-00.09.30:402][ 63]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.09.30:402][ 63]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.25-00.09.30:402][ 63]PIE: New page: PIE session: Rand_tower (Oct 24, 2019, 2:09:30 PM)
+[2019.10.25-00.09.30:402][ 63]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
+[2019.10.25-00.09.30:463][ 63]LogPlayLevel: PIE: StaticDuplicateObject took: (0.059482s)
+[2019.10.25-00.09.30:463][ 63]LogAIModule: Creating AISystem for world Rand_tower
+[2019.10.25-00.09.30:476][ 63]LogPlayLevel: PIE: World Init took: (0.012582s)
+[2019.10.25-00.09.30:476][ 63]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.073066s)
+[2019.10.25-00.09.30:513][ 63]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2019.10.25-00.09.30:519][ 63]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.25-00.09.30:556][ 63]LogInit: FAudioDevice initialized.
+[2019.10.25-00.09.30:634][ 63]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.25-00.09.30:639][ 63]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.24-19.09.30
+[2019.10.25-00.09.30:639][ 63]LogWorld: Bringing up level for play took: 0.003725
+[2019.10.25-00.09.30:653][ 63]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower 1.13
+[2019.10.25-00.09.30:653][ 63]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.09.55:385][899]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.09.55:386][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.25-00.09.55:447][899]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.25-00.09.55:447][899]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.09.55:475][899]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.25-00.09.55:478][899]LogUObjectHash: Compacting FUObjectHashTables data took   1.14ms
+[2019.10.25-00.09.55:510][900]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.10.25-00.10.04:844][171]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_road_border_5)
+[2019.10.25-00.10.14:599][451]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_road_border_6)
+[2019.10.25-00.10.15:741][479]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_road_border_7)
+[2019.10.25-00.10.16:258][491]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_road_border_6)
+[2019.10.25-00.10.17:071][512]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_road_border_8)
+[2019.10.25-00.10.17:854][533]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_road_border_9)
+[2019.10.25-00.10.18:416][546]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_road_border_10)
+[2019.10.25-00.10.18:896][558]LogEditorViewport: Clicking on Actor (CTRL LMB): StaticMeshActor (SM_road_border_11)
+[2019.10.25-00.10.23:545][685]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.10.23:618][687]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.25-00.10.23:626][687]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.10.23:626][687]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.25-00.10.23:626][687]PIE: New page: PIE session: Rand_tower (Oct 24, 2019, 2:10:23 PM)
+[2019.10.25-00.10.23:626][687]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
+[2019.10.25-00.10.23:689][687]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062649s)
+[2019.10.25-00.10.23:689][687]LogAIModule: Creating AISystem for world Rand_tower
+[2019.10.25-00.10.23:690][687]LogPlayLevel: PIE: World Init took: (0.000563s)
+[2019.10.25-00.10.23:690][687]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.063350s)
+[2019.10.25-00.10.23:712][687]LogUObjectHash: Compacting FUObjectHashTables data took   1.10ms
+[2019.10.25-00.10.23:714][687]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.25-00.10.23:737][687]LogInit: FAudioDevice initialized.
+[2019.10.25-00.10.23:761][687]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.25-00.10.23:765][687]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.24-19.10.23
+[2019.10.25-00.10.23:765][687]LogWorld: Bringing up level for play took: 0.003090
+[2019.10.25-00.10.23:779][687]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower 0.255
+[2019.10.25-00.10.23:779][687]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.10.42:717][293]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.10.42:718][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.25-00.10.42:777][293]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.25-00.10.42:777][293]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.10.42:802][293]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.25-00.10.42:805][293]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2019.10.25-00.10.42:850][294]LogPlayLevel: Display: Destroying online subsystem :Context_5
+[2019.10.25-00.10.48:952][462]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Small_Rock_01)
+[2019.10.25-00.11.21:408][371]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.11.37:931][805]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Big_Rock_02)
+[2019.10.25-00.11.55:300][278]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.11.58:402][365]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.12.19:598][973]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_road_border_13)
+[2019.10.25-00.12.25:685][137]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.12.30:537][286]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.14.00:895][173]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.14.08:630][395]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.14.34:130][151]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.14.39:947][309]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.14.49:652][586]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.14.50:150][587]LogStaticMesh: Building static mesh SM_rock_01...
+[2019.10.25-00.14.50:234][587]LogStaticMesh: Built static mesh [0.09s] /Game/Environment_Set/Environment/Rocks/Models/SM_rock_01.SM_rock_01
+[2019.10.25-00.14.50:265][587]LogMaterial: Display: Missing cached shader map for material M_rock_01, compiling. 
+[2019.10.25-00.14.50:493][587]LogActorFactory: Actor Factory created SM_rock_01
+[2019.10.25-00.14.51:824][620]LogActorFactory: Actor Factory created SM_rock_01
+[2019.10.25-00.14.52:959][651]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.14.57:162][748]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.15.12:706][ 31]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.15.28:271][400]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.10.25-00.15.28:561][408]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.15.29:856][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_rock_01)
+[2019.10.25-00.15.58:891][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Small_Rock_01)
+[2019.10.25-00.16.15:293][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
