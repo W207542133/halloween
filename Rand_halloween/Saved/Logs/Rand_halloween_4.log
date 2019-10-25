@@ -990,3 +990,328 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2019.10.25-00.15.29:856][447]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_rock_01)
 [2019.10.25-00.15.58:891][467]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_Small_Rock_01)
 [2019.10.25-00.16.15:293][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.17.53:187][381]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.18.09:629][859]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.18.09:729][861]LogActorComponent: UnregisterComponent: (/Engine/Transient.SphereBrushComponent) Not registered. Aborting.
+[2019.10.25-00.18.21:276][205]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.18.57:960][294]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.19.16:179][817]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.19.19:633][907]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.19.34:046][329]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.19.44:610][663]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.19.54:691][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.20.11:967][505]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (SM_road_border_8)
+[2019.10.25-00.20.15:034][598]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2019.10.25-00.20.40:540][347]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.10.25-00.20.58:089][753]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.21.31:894][504]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.21.33:405][504]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.21.34:856][539]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.21.36:431][572]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.21.36:940][574]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.21.38:271][606]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.21.39:477][630]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.21.39:923][635]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.21.40:639][653]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.25-00.21.42:585][675]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.21.43:335][693]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.25-00.23.23:861][746]Cmd: TRANSACTION UNDO
+[2019.10.25-00.23.23:861][746]LogEditorTransaction: Undo Foliage Editing
+[2019.10.25-00.23.24:671][762]Cmd: TRANSACTION UNDO
+[2019.10.25-00.23.24:671][762]LogEditorTransaction: Undo Foliage Editing
+[2019.10.25-00.23.25:183][773]Cmd: TRANSACTION UNDO
+[2019.10.25-00.23.25:183][773]LogEditorTransaction: Undo Foliage Editing
+[2019.10.25-00.23.25:684][784]Cmd: TRANSACTION UNDO
+[2019.10.25-00.23.25:684][784]LogEditorTransaction: Undo Foliage Editing
+[2019.10.25-00.23.26:182][795]Cmd: TRANSACTION UNDO
+[2019.10.25-00.23.26:182][795]LogEditorTransaction: Undo Foliage Editing
+[2019.10.25-00.23.26:549][803]Cmd: TRANSACTION UNDO
+[2019.10.25-00.23.26:549][803]LogEditorTransaction: Undo Foliage Editing
+[2019.10.25-00.23.27:002][813]Cmd: TRANSACTION UNDO
+[2019.10.25-00.23.27:002][813]LogEditorTransaction: Undo Foliage Editing
+[2019.10.25-00.23.27:319][820]Cmd: TRANSACTION UNDO
+[2019.10.25-00.23.27:319][820]LogEditorTransaction: Undo Foliage Editing
+[2019.10.25-00.23.27:543][825]Cmd: TRANSACTION UNDO
+[2019.10.25-00.23.27:543][825]LogEditorTransaction: Undo Foliage Editing
+[2019.10.25-00.23.27:861][832]Cmd: TRANSACTION UNDO
+[2019.10.25-00.23.27:861][832]LogEditorTransaction: Undo Foliage Editing
+[2019.10.25-00.23.28:349][843]Cmd: TRANSACTION UNDO
+[2019.10.25-00.23.28:350][843]LogEditorTransaction: Undo Foliage Editing
+[2019.10.25-00.23.28:797][853]Cmd: TRANSACTION UNDO
+[2019.10.25-00.23.28:797][853]LogEditorTransaction: Undo Foliage Editing
+[2019.10.25-00.23.29:286][864]Cmd: TRANSACTION UNDO
+[2019.10.25-00.23.29:287][864]LogEditorTransaction: Undo Foliage Editing
+[2019.10.25-00.23.29:857][877]Cmd: TRANSACTION UNDO
+[2019.10.25-00.23.29:857][877]LogEditorTransaction: Undo Foliage Editing
+[2019.10.25-00.23.33:199][947]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.24.19:022][ 15]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.24.33:528][360]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.24.54:218][801]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.10.25-00.25.10:855][153]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.25.37:339][742]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.25.38:603][769]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2019.10.25-00.25.49:200][ 35]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.26.02:094][372]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.26.13:634][704]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.26.21:120][911]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.26.37:298][354]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume)
+[2019.10.25-00.26.41:064][456]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.26.45:439][578]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.27.11:002][296]LogUObjectHash: Compacting FUObjectHashTables data took   2.02ms
+[2019.10.25-00.27.11:499][296]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower_Auto2FDF44E7441F464DA09CE18B0B08A8E84.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Autosaves/Game/Rand_halloween/Rand_tower_Auto2.umap'
+[2019.10.25-00.27.11:517][296]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/Rand_halloween/Rand_tower' took 0.544
+[2019.10.25-00.27.11:517][296]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.544
+[2019.10.25-00.27.46:211][239]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.10.25-00.27.48:026][274]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume3)
+[2019.10.25-00.28.04:474][687]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.28.27:019][256]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.28.28:908][308]LogEditorViewport: Clicking on Actor (LMB): BlockingVolume (BlockingVolume2)
+[2019.10.25-00.28.49:342][836]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.28.52:577][914]LogGeomTools: Triangulation of poly failed.
+[2019.10.25-00.28.52:578][914]LogGeomTools: Triangulation of poly failed.
+[2019.10.25-00.29.03:838][201]Cmd: TRANSACTION UNDO
+[2019.10.25-00.29.03:838][201]LogEditorTransaction: Undo Move Actors
+[2019.10.25-00.29.03:878][201]LogGeometryMode: Warning: Unable to find 1 Edge(s) in new BSP
+[2019.10.25-00.29.03:878][201]LogGeometryMode: Warning: Unable to resolve BlockingVolume4 Brush in new BSP, see above
+[2019.10.25-00.29.03:878][201]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2019.10.25-00.29.04:421][210]Cmd: TRANSACTION UNDO
+[2019.10.25-00.29.04:421][210]LogEditorTransaction: Undo Move Actors
+[2019.10.25-00.29.04:444][210]LogGeometryMode: Warning: Unable to find 1 Edge(s) in new BSP
+[2019.10.25-00.29.04:444][210]LogGeometryMode: Warning: Unable to resolve BlockingVolume4 Brush in new BSP, see above
+[2019.10.25-00.29.04:444][210]LogGeometryMode: Warning: Unable to find all previously selected geometry data, resetting selection
+[2019.10.25-00.29.21:873][650]LogEditorViewport: Clicking on Actor (LMB): Landscape (Landscape)
+[2019.10.25-00.29.23:286][680]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.31.22:173][256]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.31.22:473][258]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.31.23:314][278]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.31.24:116][299]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.31.25:896][325]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.31.27:057][354]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.31.28:889][397]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.31.29:173][399]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.31.29:990][424]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.31.31:085][445]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.31.31:271][446]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.31.32:096][471]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.31.32:622][487]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Poplar_05_Small2)
+[2019.10.25-00.31.35:875][578]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.31.36:161][580]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.31.37:109][609]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.31.38:448][641]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.31.38:896][642]LogActorFactory: Actor Factory created Poplar_06_Forest
+[2019.10.25-00.31.40:239][683]LogActorFactory: Actor Factory created Poplar_06_Forest
+[2019.10.25-00.31.41:262][714]Cmd: DELETE
+[2019.10.25-00.31.41:262][714]Cmd: ACTOR DELETE
+[2019.10.25-00.31.41:273][714]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.10.25-00.31.41:299][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2019.10.25-00.31.41:300][714]LogEditorActor: Deleted 1 Actors (0.038 secs)
+[2019.10.25-00.31.42:791][746]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.31.43:088][748]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.31.44:447][790]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.31.46:969][853]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.31.47:329][855]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.31.48:725][895]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.31.52:648][  8]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.31.52:865][  9]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.31.53:489][ 27]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.31.54:791][ 50]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.31.55:095][ 52]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.31.55:531][ 65]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.31.56:394][ 90]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.31.58:583][136]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.31.58:816][137]LogActorFactory: Actor Factory created Poplar_06_Forest
+[2019.10.25-00.32.00:422][179]LogActorFactory: Actor Factory created Poplar_06_Forest
+[2019.10.25-00.32.00:989][193]Cmd: DELETE
+[2019.10.25-00.32.00:989][193]Cmd: ACTOR DELETE
+[2019.10.25-00.32.01:000][193]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.10.25-00.32.01:028][193]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2019.10.25-00.32.01:029][193]LogEditorActor: Deleted 1 Actors (0.040 secs)
+[2019.10.25-00.32.02:213][213]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.32.02:501][214]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.32.04:970][281]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.32.09:313][387]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.32.09:543][388]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.32.11:316][439]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.32.12:181][455]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.32.12:411][456]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.32.13:494][486]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.32.16:450][541]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.32.16:646][541]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.32.17:706][572]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.32.18:737][591]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.32.18:987][593]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.32.19:873][618]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.32.21:114][638]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.32.21:476][640]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.32.22:432][668]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.32.23:324][683]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.32.23:595][684]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.32.24:871][720]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.32.25:950][737]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.32.26:141][737]LogActorFactory: Actor Factory created Poplar_06_Forest
+[2019.10.25-00.32.27:392][773]LogActorFactory: Actor Factory created Poplar_06_Forest
+[2019.10.25-00.32.28:687][810]Cmd: DELETE
+[2019.10.25-00.32.28:687][810]Cmd: ACTOR DELETE
+[2019.10.25-00.32.28:699][810]LogEditorActor: Deleted Actor: StaticMeshActor
+[2019.10.25-00.32.28:723][810]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2019.10.25-00.32.28:723][810]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2019.10.25-00.32.29:685][830]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.32.29:961][831]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.32.31:150][865]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.32.33:850][930]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.32.34:145][931]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.32.35:725][972]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.32.36:547][986]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.32.36:839][987]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.32.37:668][  8]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.32.38:574][ 22]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.32.38:891][ 25]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.32.40:111][ 56]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.32.58:380][528]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.32.58:669][529]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.32.59:803][558]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.33.00:617][572]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.33.00:893][574]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.33.02:036][603]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.33.03:767][640]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.33.04:047][642]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.33.06:088][695]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.33.07:599][717]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.33.07:976][719]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.33.09:329][754]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.33.10:926][790]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.33.11:209][791]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.33.12:987][841]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.33.15:847][921]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.33.16:119][922]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.33.18:265][985]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.33.22:048][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.33.22:325][ 76]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.33.23:326][105]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.33.24:203][119]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.33.24:485][120]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.33.25:309][143]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.33.26:444][164]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.33.26:811][166]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.33.27:749][192]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.33.28:702][209]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.33.28:878][210]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.33.29:900][238]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.33.30:902][257]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.33.31:188][258]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.33.32:618][297]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.33.34:275][321]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.33.34:558][322]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.33.35:369][344]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.33.44:845][601]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.33.45:122][602]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.33.46:273][637]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.33.47:330][659]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.33.47:601][660]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.33.48:716][694]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.34.07:826][289]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.34.08:101][290]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.34.09:221][324]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.34.10:446][345]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.34.10:802][347]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.34.11:891][379]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.34.12:878][397]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.34.13:150][398]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.34.13:726][415]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.34.14:686][434]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.34.14:940][436]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.34.15:983][466]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.34.17:067][482]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.34.17:337][483]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.34.18:387][514]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.34.19:204][530]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.34.19:424][531]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.34.20:337][557]LogActorFactory: Actor Factory created Poplar_05_Small
+[2019.10.25-00.34.21:695][577]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.34.22:004][579]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.34.22:904][603]LogActorFactory: Actor Factory created Poplar_04_Small
+[2019.10.25-00.35.00:065][698]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.35.00:133][700]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.25-00.35.00:141][700]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.35.00:141][700]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.25-00.35.00:141][700]PIE: New page: PIE session: Rand_tower (Oct 24, 2019, 2:35:00 PM)
+[2019.10.25-00.35.00:141][700]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
+[2019.10.25-00.35.00:286][700]LogPlayLevel: PIE: StaticDuplicateObject took: (0.144293s)
+[2019.10.25-00.35.00:287][700]LogAIModule: Creating AISystem for world Rand_tower
+[2019.10.25-00.35.00:287][700]LogPlayLevel: PIE: World Init took: (0.000628s)
+[2019.10.25-00.35.00:287][700]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.145068s)
+[2019.10.25-00.35.00:314][700]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2019.10.25-00.35.00:316][700]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.25-00.35.00:341][700]LogInit: FAudioDevice initialized.
+[2019.10.25-00.35.00:372][700]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.25-00.35.00:378][700]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.24-19.35.00
+[2019.10.25-00.35.00:379][700]LogWorld: Bringing up level for play took: 0.006161
+[2019.10.25-00.35.00:393][700]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower 0.812
+[2019.10.25-00.35.00:394][700]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.37.12:106][241]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-236.87 Y=132.88 Z=0.00 Location: X=-430.14 Y=671.47 Z=683.62 Normal: X=0.31 Y=-0.95 Z=-0.04 PenetrationDepth:0.304 Actor:None Component:ModelComponent_33 BoneName:None (0 other events since notify)
+[2019.10.25-00.37.32:751][933]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-47.10 Y=-160.76 Z=0.00 Location: X=-472.37 Y=701.76 Z=706.12 Normal: X=0.09 Y=-0.24 Z=0.97 PenetrationDepth:0.004 Actor:None Component:ModelComponent_33 BoneName:None (7 other events since notify)
+[2019.10.25-00.37.42:161][257]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.37.42:162][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.25-00.37.42:225][257]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.25-00.37.42:225][257]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.37.42:253][257]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.25-00.37.42:257][257]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2019.10.25-00.37.42:295][258]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.10.25-00.38.07:014][ 13]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.38.07:045][ 14]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.25-00.38.07:053][ 14]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.38.07:053][ 14]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.25-00.38.07:054][ 14]PIE: New page: PIE session: Rand_tower (Oct 24, 2019, 2:38:07 PM)
+[2019.10.25-00.38.07:054][ 14]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
+[2019.10.25-00.38.07:131][ 14]LogPlayLevel: PIE: StaticDuplicateObject took: (0.077614s)
+[2019.10.25-00.38.07:132][ 14]LogAIModule: Creating AISystem for world Rand_tower
+[2019.10.25-00.38.07:132][ 14]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2019.10.25-00.38.07:132][ 14]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.078531s)
+[2019.10.25-00.38.07:156][ 14]LogUObjectHash: Compacting FUObjectHashTables data took   1.44ms
+[2019.10.25-00.38.07:158][ 14]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.25-00.38.07:185][ 14]LogInit: FAudioDevice initialized.
+[2019.10.25-00.38.07:213][ 14]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.25-00.38.07:218][ 14]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.24-19.38.07
+[2019.10.25-00.38.07:218][ 14]LogWorld: Bringing up level for play took: 0.004685
+[2019.10.25-00.38.07:232][ 14]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower -0.355
+[2019.10.25-00.38.07:232][ 14]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.38.29:226][625]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-293.70 Y=48.10 Z=0.00 Location: X=-424.92 Y=675.80 Z=685.41 Normal: X=0.44 Y=-0.83 Z=-0.34 PenetrationDepth:0.018 Actor:None Component:ModelComponent_36 BoneName:None (0 other events since notify)
+[2019.10.25-00.38.51:295][392]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-251.08 Y=-182.29 Z=0.00 Location: X=-445.97 Y=702.50 Z=702.80 Normal: X=0.15 Y=-0.39 Z=0.91 PenetrationDepth:0.100 Actor:None Component:ModelComponent_36 BoneName:None (7 other events since notify)
+[2019.10.25-00.38.53:662][479]LogCharacterMovement: FirstPersonCharacter_C_0 is stuck and failed to move! Velocity: X=-219.96 Y=-161.18 Z=0.00 Location: X=-446.33 Y=681.79 Z=688.10 Normal: X=0.28 Y=-0.72 Z=0.64 PenetrationDepth:0.049 Actor:None Component:ModelComponent_36 BoneName:None (4 other events since notify)
+[2019.10.25-00.38.56:866][595]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.38.56:866][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.25-00.38.56:927][595]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.25-00.38.56:927][595]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.38.56:956][595]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.25-00.38.56:960][595]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2019.10.25-00.38.56:996][596]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.10.25-00.39.11:419][ 16]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.39.38:206][880]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.39.38:271][882]LogTemp: Repeating last play command: Selected Viewport
+[2019.10.25-00.39.38:282][882]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.39.38:282][882]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.10.25-00.39.38:282][882]PIE: New page: PIE session: Rand_tower (Oct 24, 2019, 2:39:38 PM)
+[2019.10.25-00.39.38:282][882]LogPlayLevel: Creating play world package: /Game/Rand_halloween/UEDPIE_0_Rand_tower
+[2019.10.25-00.39.38:349][882]LogPlayLevel: PIE: StaticDuplicateObject took: (0.066880s)
+[2019.10.25-00.39.38:350][882]LogAIModule: Creating AISystem for world Rand_tower
+[2019.10.25-00.39.38:350][882]LogPlayLevel: PIE: World Init took: (0.000535s)
+[2019.10.25-00.39.38:350][882]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Rand_halloween/Rand_tower.Rand_tower to /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower (0.067558s)
+[2019.10.25-00.39.38:374][882]LogUObjectHash: Compacting FUObjectHashTables data took   1.12ms
+[2019.10.25-00.39.38:377][882]LogInit: XAudio2 using 'Speakers / Headphones (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.10.25-00.39.38:400][882]LogInit: FAudioDevice initialized.
+[2019.10.25-00.39.38:426][882]LogLoad: Game class is 'FirstPersonGameMode_C'
+[2019.10.25-00.39.38:430][882]LogWorld: Bringing World /Game/Rand_halloween/UEDPIE_0_Rand_tower.Rand_tower up for play (max tick rate 0) at 2019.10.24-19.39.38
+[2019.10.25-00.39.38:431][882]LogWorld: Bringing up level for play took: 0.004265
+[2019.10.25-00.39.38:445][882]PIE: Play in editor start time for /Game/Rand_halloween/UEDPIE_0_Rand_tower 0.856
+[2019.10.25-00.39.38:445][882]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.40.13:705][936]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.40.13:706][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.25-00.40.13:778][936]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.10.25-00.40.13:778][936]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel' has LevelScriptBlueprint '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower' with GeneratedClass '/Game/Rand_halloween/Rand_tower.Rand_tower_C' with ClassGeneratedBy '/Game/Rand_halloween/Rand_tower.Rand_tower:PersistentLevel.Rand_tower'
+[2019.10.25-00.40.13:807][936]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.10.25-00.40.13:810][936]LogUObjectHash: Compacting FUObjectHashTables data took   1.16ms
+[2019.10.25-00.40.13:835][937]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.10.25-00.40.14:797][962]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.10.25-00.40.14:948][963]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2019.10.25-00.40.15:491][963]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower6A4CDCB841F2558D818B439317FB85C9.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/Rand_halloween/Rand_tower.umap'
+[2019.10.25-00.40.18:430][987]LogSlate: FSceneViewport::OnFocusLost() reason 0
