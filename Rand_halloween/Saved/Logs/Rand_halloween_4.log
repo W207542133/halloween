@@ -5119,3 +5119,5 @@ Exception rethrown at [0]:
 [2019.10.25-01.36.07:020][236]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower1EB81AD24584EAA53CE7798AEB1EAEFF.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/Rand_halloween/Rand_tower.umap'
 [2019.10.25-01.36.07:073][236]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/Rand_halloween/Rand_tower_BuiltData" FILE="../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/Rand_halloween/Rand_tower_BuiltData.uasset" SILENT=true
 [2019.10.25-01.36.07:805][236]LogSavePackage: Moving '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Saved/Rand_tower_BuiltData68D9BB7047CE5119DE427B820047AC11.tmp' to '../../../../Users/W207542133/Desktop/halloween/Rand_halloween/Content/Rand_halloween/Rand_tower_BuiltData.uasset'
+[2019.10.25-01.37.45:222][527]LogEditorViewport: Clicking on Actor (LMB): BP_GoodSky_C (BP_GoodSky)
+[2019.10.25-01.40.05:651][505]LogSlate: FSceneViewport::OnFocusLost() reason 0
